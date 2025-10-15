@@ -94,52 +94,178 @@ that in this case, the "code first dev branch" is still the branch on the fork a
 
 ## Source Code
 
-> Note: This section is currently required as defined. It is being reviewed and the process may change in the future.
-
 In order to ensure draft code does not accidentally leak into production use,
 and to signify when the changeover from draft to final happens, *all* new or
-modified[1] identifiers must be prefixed with the relevant `GI####` identifiers.
+modified lines must have a comment in the following format:
 
-- [1] Modified in a non-backwards-compatible way. If, for example, a statically
-      sized array is grown - this does not need to be prefixed. But a tag in a
-      comment would be *highly* recommended.
+`[CODE_FIRST] <IssueId>`
 
-### File names
+> Note: "BEGIN" and "END" comment markers are not allowed. Each line must have a comment.
 
-New public header files require the prefix (i.e. `Gi1234MyNewProtocol.h`).
-Private header files do not need the prefix.
+- `<IssueId>`  is a placeholder for the GitHub Code First issue for the change
+  - For example, if the GitHub issue is `10000`, the comment in C source code should be `// [CODE_FIRST] 10000`
+- This process does not prescribe how the comment is positioned relative to other code on the line. The comment
+  may have any number of surrounding whitespace characters to meet aesthetic preference or code formatting requirements.
+- If multiple code first changes affect the same area of code each line should be unique to a given code first change
+  with its corresponding comment. If for any reason two code first changes must be on the same line, the comment for each
+  code first change should be placed at the end of the line.
 
-### Contents
+---
 
-The tagging must follow the coding style used by each affected code base.
-Examples:
+### Source Code Comment Tagging Examples
 
-| Released in spec | Draft version in tree | Comment |
-| ---              | ---                   | ---     |
-| `FunctionName`   | `Gi1234FunctionName`  |         |
-| `HEADER_MACRO`   | `GI1234_HEADER_MACRO` |         |
+#### DEC File
 
-For data structures or enums, any new or non-backwards-compatible structs or
-fields require a prefix. As above, growing an existing array in an existing
-struct requires no prefix.
+```ini
+  ##  @libraryclass  Provides library functions to access SMBUS devices.                    # [CODE_FIRST] 10000
+  #                  Libraries of this class must be ported to a specific SMBUS controller. # [CODE_FIRST] 10000
+  NewLib|Include/Library/NewLib.h                                                           # [CODE_FIRST] 10000
+```
 
-| Released in spec      | Draft version in tree | Comment               |
-| ---                   | ---                   | ---                   |
-| `typedef SOME_STRUCT` | `GI1234_SOME_STRUCT`  | Typedef only [2]      |
-| `StructField`         | `Gi1234StructField`   | In existing struct[3] |
-| `typedef SOME_ENUM`   | `GI1234_SOME_ENUM`    | Typedef only [2]      |
-| `EnumValue`           | `Gi1234EnumValue`     | In existing enum[3]   |
+### DSC File
 
-- [2] If the struct or enum definition is separate from the typedef in the public
-      header, the definition does not need the prefix.
-- [3] Individual fields in newly added struct or enum do not need prefix, the
-      struct or enum already carried the prefix.
+#### PCD Assignment
 
-Variable prefixes indicating global scope (`g` or `m`) go before the `GI` prefix.
+```ini
+[PcdsFixedAtBuild]
+  gEfiMdePkgTokenSpaceGuid.NewPcd|0x1    # [CODE_FIRST] 10000
+```
 
-| Released in spec | Draft version in tree | Comment |
-| ---              | ---                   | ---     |
-| `gSomeGuid`      | `gGi1234SomeGuid`     |         |
+#### New Component(s)
 
-Local identifiers, including module-global ones (`m`-prefixed) do not require a
-`GI` prefix.
+```ini
+[Components]
+  MdePkg/Library/NewLib/NewLib.inf    # [CODE_FIRST] 10000
+  MdePkg/Library/NewLib2/NewLib2.inf  # [CODE_FIRST] 10000
+```
+
+### C Code
+
+#### GUID Macro
+
+```c
+///                                                                                   // [CODE_FIRST] 10000
+/// Global ID for EFI_PEI_RECOVERY_BLOCK_IO_PPI                                       // [CODE_FIRST] 10000
+///                                                                                   // [CODE_FIRST] 10000
+#define EFI_PEI_RECOVERY_BLOCK_IO_PPI_GUID \                                          // [CODE_FIRST] 10000
+  { \                                                                                 // [CODE_FIRST] 10000
+    0x695d8aa1, 0x42ee, 0x4c46, { 0x80, 0x5c, 0x6e, 0xa6, 0xbc, 0xe7, 0x99, 0xe3 } \  // [CODE_FIRST] 10000
+  }                                                                                   // [CODE_FIRST] 10000
+```
+
+#### Struct
+
+```c
+///                                                                                 // [CODE_FIRST] 10000
+/// Specification inconsistency here:                                               // [CODE_FIRST] 10000
+/// PEI_BLOCK_IO_MEDIA has been changed to EFI_PEI_BLOCK_IO_MEDIA.                  // [CODE_FIRST] 10000
+/// Inconsistency exists in UEFI Platform Initialization Specification 1.2          // [CODE_FIRST] 10000
+/// Volume 1: Pre-EFI Initialization Core Interface, where all references to        // [CODE_FIRST] 10000
+/// this structure name are with the "EFI_" prefix, except for the definition       // [CODE_FIRST] 10000
+/// which is without "EFI_".  So the name of PEI_BLOCK_IO_MEDIA is taken as the     // [CODE_FIRST] 10000
+/// exception, and EFI_PEI_BLOCK_IO_MEDIA is used to comply with most of            // [CODE_FIRST] 10000
+/// the specification.                                                              // [CODE_FIRST] 10000
+///                                                                                 // [CODE_FIRST] 10000
+typedef struct {                                                                    // [CODE_FIRST] 10000
+  ///                                                                               // [CODE_FIRST] 10000
+  /// The type of media device being referenced by DeviceIndex.                     // [CODE_FIRST] 10000
+  ///                                                                               // [CODE_FIRST] 10000
+  EFI_PEI_BLOCK_DEVICE_TYPE    DeviceType;                                          // [CODE_FIRST] 10000
+  ///                                                                               // [CODE_FIRST] 10000
+  /// A flag that indicates if media is present. This flag is always set for        // [CODE_FIRST] 10000
+  /// nonremovable media devices.                                                   // [CODE_FIRST] 10000
+  ///                                                                               // [CODE_FIRST] 10000
+  BOOLEAN                      MediaPresent;                                        // [CODE_FIRST] 10000
+  ///                                                                               // [CODE_FIRST] 10000
+  /// The last logical block that the device supports.                              // [CODE_FIRST] 10000
+  ///                                                                               // [CODE_FIRST] 10000
+  UINTN                        LastBlock;                                           // [CODE_FIRST] 10000
+  ///                                                                               // [CODE_FIRST] 10000
+  /// The size of a logical block in bytes.                                         // [CODE_FIRST] 10000
+  ///                                                                               // [CODE_FIRST] 10000
+  UINTN                        BlockSize;                                           // [CODE_FIRST] 10000
+} EFI_PEI_BLOCK_IO_MEDIA;                                                           // [CODE_FIRST] 10000
+```
+
+#### Enum
+
+```c
+///                                                                                 // [CODE_FIRST] 10000
+/// EFI_PEI_BLOCK_DEVICE_TYPE                                                       // [CODE_FIRST] 10000
+///                                                                                 // [CODE_FIRST] 10000
+typedef enum {                                                                      // [CODE_FIRST] 10000
+  LegacyFloppy   = 0,  ///< The recovery device is a floppy.                        // [CODE_FIRST] 10000
+  IdeCDROM       = 1,  ///< The recovery device is an IDE CD-ROM                    // [CODE_FIRST] 10000
+  IdeLS120       = 2,  ///< The recovery device is an IDE LS-120                    // [CODE_FIRST] 10000
+  UsbMassStorage = 3,  ///< The recovery device is a USB Mass Storage device        // [CODE_FIRST] 10000
+  SD             = 4,  ///< The recovery device is a Secure Digital device          // [CODE_FIRST] 10000
+  EMMC           = 5,  ///< The recovery device is a eMMC device                    // [CODE_FIRST] 10000
+  UfsDevice      = 6,  ///< The recovery device is a Universal Flash Storage device // [CODE_FIRST] 10000
+  MaxDeviceType                                                                     // [CODE_FIRST] 10000
+} EFI_PEI_BLOCK_DEVICE_TYPE;                                                        // [CODE_FIRST] 10000
+```
+
+#### Function Prototype
+
+```
+/**                                                                                    // [CODE_FIRST] 10000
+  Reads the requested number of blocks from the specified block device.                // [CODE_FIRST] 10000
+
+  The function reads the requested number of blocks from the device. All the           // [CODE_FIRST] 10000
+  blocks are read, or an error is returned. If there is no media in the device,        // [CODE_FIRST] 10000
+  the function returns EFI_NO_MEDIA.                                                   // [CODE_FIRST] 10000
+
+  @param[in]  PeiServices   General-purpose services that are available to             // [CODE_FIRST] 10000
+                            every PEIM.                                                // [CODE_FIRST] 10000
+  @param[in]  This          Indicates the EFI_PEI_RECOVERY_BLOCK_IO_PPI instance.      // [CODE_FIRST] 10000
+  @param[in]  DeviceIndex   Specifies the block device to which the function wants     // [CODE_FIRST] 10000
+                            to talk. Because the driver that implements Block I/O      // [CODE_FIRST] 10000
+                            PPIs will manage multiple block devices, PPIs that         // [CODE_FIRST] 10000
+                            want to talk to a single device must specify the device    // [CODE_FIRST] 10000
+                            index that was assigned during the enumeration process.    // [CODE_FIRST] 10000
+                            This index is a number from one to NumberBlockDevices.     // [CODE_FIRST] 10000
+  @param[in]  StartLBA      The starting logical block address (LBA) to read from      // [CODE_FIRST] 10000
+                            on the device                                              // [CODE_FIRST] 10000
+  @param[in]  BufferSize    The size of the Buffer in bytes. This number must be       // [CODE_FIRST] 10000
+                            a multiple of the intrinsic block size of the device.      // [CODE_FIRST] 10000
+  @param[out] Buffer        A pointer to the destination buffer for the data.          // [CODE_FIRST] 10000
+                            The caller is responsible for the ownership of the         // [CODE_FIRST] 10000
+                            buffer.                                                    // [CODE_FIRST] 10000
+
+  @retval EFI_SUCCESS             The data was read correctly from the device.         // [CODE_FIRST] 10000
+  @retval EFI_DEVICE_ERROR        The device reported an error while attempting        // [CODE_FIRST] 10000
+                                  to perform the read operation.                       // [CODE_FIRST] 10000
+  @retval EFI_INVALID_PARAMETER   The read request contains LBAs that are not          // [CODE_FIRST] 10000
+                                  valid, or the buffer is not properly aligned.        // [CODE_FIRST] 10000
+  @retval EFI_NO_MEDIA            There is no media in the device.                     // [CODE_FIRST] 10000
+  @retval EFI_BAD_BUFFER_SIZE     The BufferSize parameter is not a multiple of        // [CODE_FIRST] 10000
+                                  the intrinsic block size of the device.              // [CODE_FIRST] 10000
+
+**/                                                                                    // [CODE_FIRST] 10000
+typedef                                                                                // [CODE_FIRST] 10000
+EFI_STATUS                                                                             // [CODE_FIRST] 10000
+(EFIAPI *EFI_PEI_READ_BLOCKS)(                                                         // [CODE_FIRST] 10000
+  IN  EFI_PEI_SERVICES               **PeiServices,                                    // [CODE_FIRST] 10000
+  IN  EFI_PEI_RECOVERY_BLOCK_IO_PPI  *This,                                            // [CODE_FIRST] 10000
+  IN  UINTN                          DeviceIndex,                                      // [CODE_FIRST] 10000
+  IN  EFI_PEI_LBA                    StartLBA,                                         // [CODE_FIRST] 10000
+  IN  UINTN                          BufferSize,                                       // [CODE_FIRST] 10000
+  OUT VOID                           *Buffer                                           // [CODE_FIRST] 10000
+  );                                                                                   // [CODE_FIRST] 10000
+```
+
+#### Modification in An Existing Function
+
+```c
+  EFI_BOOT_MODE  BootMode;                                  // [CODE_FIRST] 10000
+
+  . . . Other existing  code
+
+  //                                                        // [CODE_FIRST] 10000
+  // Get current Boot Mode                                  // [CODE_FIRST] 10000
+  //                                                        // [CODE_FIRST] 10000
+  BootMode = GetBootModeHob ();                             // [CODE_FIRST] 10000
+  DEBUG ((DEBUG_INFO, "Boot Mode:%x\n", BootMode));         // [CODE_FIRST] 10000
+
+  . . . Other existing code
+```
