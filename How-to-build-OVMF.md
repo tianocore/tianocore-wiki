@@ -38,7 +38,7 @@ Once you have modified Conf/target.txt, you can run the build command.
 
     bash$ build
 
-If successful, you should now have a OVMF.Fd file under the Build sub-directory. The exact directory under the Build directory will depend upon the toolchain, dsc and processor architecture.
+If successful, you should now have a OVMF.fd file under the Build sub-directory. The exact directory under the Build directory will depend upon the toolchain, dsc and processor architecture.
 
 You can use OVMF.Fd to [run OVMF](How-to-run-OVMF "wikilink").
 
@@ -46,3 +46,4 @@ See Also
 --------
 
 - [https://github.com/tianocore/edk2/blob/master/OvmfPkg/README](https://github.com/tianocore/edk2/blob/master/OvmfPkg/README)
+
