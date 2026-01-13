@@ -27,6 +27,11 @@ to be added as a reviewer to a PR. If you would like to have those capabilities,
 the [edk2 developer mailing list](mailto:devel@edk2.groups.io?subject=Add%20to%20edk-ii-collaborators)
 that includes your GitHub username to request access to `EDK II Collaborators`.
 
+> **Note:** For significant design changes or architectural proposals, consider using the
+> [RFC Process](../../rfc/text/0000-rfc-process.md) to gather community feedback before implementation.
+> The standard development process described here is for code contributions, while RFCs provide structured design
+> review for major changes.
+
 ## Tool Setup, Workspace Setup, and Development and Test
 
 Refer to the [Build Instructions](../../build-tooling/build-workflows/build_instructions.md) documentation. After

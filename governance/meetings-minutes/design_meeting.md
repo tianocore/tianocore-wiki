@@ -5,6 +5,10 @@
 This meeting is a chance for the TianoCore community to bring any initial design ideas and communicate those ideas to
 tech leaders and fellow developers. Please send any ideas you have for designs to our community manager (contact below).
 
+Design meetings are ideal for early exploration and discussion. For more formal proposals requiring review and
+documentation, consider using the [RFC Process](../../rfc/text/0000-rfc-process.md), which provides a structured
+approach to design documentation and community review and can be used to complement design meeting discussions.
+
 ## Design Documents
 
 [https://edk2.groups.io/g/devel/files/Designs](https://edk2.groups.io/g/devel/files/Designs)
