@@ -9,6 +9,7 @@
 ## Change Log
 
 - 2026-01-12: Initial RFC created proposing the RFC process for TianoCore.
+- 2026-01-20: Add "partial" as a possible status reflected in directory structure.
 
 ## Motivation
 
@@ -50,7 +51,7 @@ and considering the unique aspects of:
 2. **Build Community Consensus**: Provide structured review and discussion periods
 3. **Document Decisions**: Create permanent, searchable record of design rationale
 4. **Complement Existing Processes**: Integrate with Code First Process and Design Meetings
-5. **Enable Asynchronous Participation**: Allow community members across timezones to participate
+5. **Enable Asynchronous Participation**: Allow community members across time zones to participate
 6. **Maintainer Flexibility**: Allow maintainers to require RFCs when appropriate
 7. **Track All Outcomes**: Document accepted, rejected, and postponed proposals
 
@@ -96,10 +97,31 @@ organized under the `rfc/` directory structure.
 
 - `rfc/template.md`: RFC template file
 - `rfc/text/`: Accepted RFCs with sequential numbering
+- `rfc/partial/`: Partially accepted RFCs with sequential numbering
 - `rfc/rejected/`: Rejected RFCs with sequential numbering
 
 RFCs may address changes to specific packages (e.g., `MdePkg`, `MdeModulePkg`) or larger architectural changes
 affecting multiple packages.
+
+In cases when an RFC is large in scope, but has agreement that can be reached on certain parts such that constructive
+progress can be made based on those agreed-upon parts, the RFC may be marked as "partial" and moved to the
+`rfc/partial/` directory upon merging. The RFC author should clearly indicate in the "Metadata" section of the RFC
+which sections are accepted and which are still under discussion. In particular, the "Unresolved Questions" section
+should clearly list the open items. In the future, a new RFC may be created to address the remaining opens. This is
+doing by updating the same file in the `rfc/partial/` directory with a new PR that addresses the open items and
+reflecting the changes in the "Change Log" section of the RFC. When the RFC is ready to be fully accepted, the PR
+should move the file from `rfc/partial/` to `rfc/text/` retaining the same RFC number (and filename).
+
+#### Partial Status Guidance
+
+The "partial" status is intended to allow progress on complex proposals while still documenting open issues. It is
+not meant to be a way to avoid consensus on major points. It should be clear that the agreed upon parts cohesively
+fit into an agreed upon overall design. If the agreed upon parts are independent of a larger unifying design, consider
+creating a new RFC for those parts instead.
+
+The "partial" status is not intended to be a common outcome. It should be used judiciously to avoid fragmentation of
+design discussions that fall under a single design umbrella. In most cases, RFCs should aim for full acceptance or
+rejection and the RFC may stay open however long is necessary until consensus is reached.
 
 ## Unresolved Questions
 
@@ -159,6 +181,8 @@ by the Rust RFC process as well.
 8. **Final Comment Period (FCP)**: 14-day period for final objections
 9. **Decision**:
    - **Accepted**: A wiki maintainer merges the PR, renaming file from `0000-name.md` to `NNNN-name.md` in `rfc/text/`
+   - **Partially Accepted**: A wiki maintainer merges the PR, renaming file from `0000-name.md` to `NNNN-name.md` in
+     `rfc/partial/`
    - **Rejected**: A wiki maintainer merges the PR, renaming file from `0000-name.md` to `NNNN-name.md` in
      `rfc/rejected/`
    - **Postponed**: PR remains open without merging; no RFC number assigned yet
@@ -321,7 +345,7 @@ validated through this RFC itself.
 1. **Phase 1 - Foundation (This RFC)**:
 
    - Establish the RFC process via this RFC
-   - Create a RFC template and supporting documentation
+   - Create an RFC template and supporting documentation
    - Describe GitHub automation for the "`rfc`" label
 
 2. **Phase 2 - Pilot**:
@@ -345,7 +369,7 @@ validated through this RFC itself.
 When you have a substantial change to propose, start by asking: "Is this a bug fix, small improvement, or major
 feature?" If it's major, you should write an RFC.
 
-Think of an RFC like a design document that the whole community can review. The RFC should benefits the developer
+Think of an RFC like a design document that the whole community can review. The RFC should benefit the developer
 by clarifying your thinking and getting early feedback and the community by documenting important decisions, getting
 consensus on ideas without implementation distractions, and providing context for complex changes during the code
 review portion of the contribution.
