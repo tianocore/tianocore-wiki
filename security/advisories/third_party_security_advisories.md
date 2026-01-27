@@ -1,5 +1,84 @@
 # Third-Party Security Advisories
 
+## [CVE-2025-11187 – OpenSSL](https://openssl-library.org/news/vulnerabilities/#CVE-2025-11187)
+
+### Published: 1/27/2026
+
+### Recommendation:
+Not a problem for EDK2. EDK2 CryptoPkg does not support PKCS#12.
+
+## [CVE-2025-15467 – OpenSSL](https://openssl-library.org/news/vulnerabilities/#CVE-2025-15467)
+
+### Published: 1/27/2026
+
+### Recommendation:
+
+Not a problem for EDK2. EDK2 CryptoPkg does not support CMS.
+
+## [CVE-2025-15468 – OpenSSL](https://openssl-library.org/news/vulnerabilities/#CVE-2025-15468)
+
+### Published: 1/27/2026
+
+### Recommendation:
+
+Not a problem for EDK2. EDK2 CryptoPkg does not use SSL_CIPHER_find().
+
+## [CVE-2025-15469 – OpenSSL](https://openssl-library.org/news/vulnerabilities/#CVE-2025-15469)
+
+### Published: 1/27/2026
+
+### Recommendation:
+
+Not a problem for EDK2. EDK2 CryptoPkg does not use OpenSSL applications, including the "openssl dgst" command-line tool.
+
+## [CVE-2025-66199 – OpenSSL](https://openssl-library.org/news/vulnerabilities/#CVE-2025-66199)
+
+### Published: 1/27/2026
+
+### Recommendation:
+
+Not a problem for EDK2. EDK2 CryptoPkg does not support CompressedCertificate. All compression algorithms (brotli, zlib, zstd) are disabled by default.
+
+## [CVE-2025-68160 – OpenSSL](https://openssl-library.org/news/vulnerabilities/#CVE-2025-68160)
+
+### Published: 1/27/2026
+
+### Recommendation:
+
+Not a problem for EDK2. EDK2 CryptoPkg does not have a use case for BIO_f_linebuffer.
+
+## [CVE-2025-69418 – OpenSSL](https://openssl-library.org/news/vulnerabilities/#CVE-2025-69418)
+
+### Published: 1/27/2026
+
+### Recommendation:
+
+Not a problem for EDK2. EDK2 CryptoPkg has OCB disabled by default.
+
+## [CVE-2025-69419 – OpenSSL](https://openssl-library.org/news/vulnerabilities/#CVE-2025-69419)
+
+### Published: 1/27/2026
+
+## Recommendation:
+
+Not a problem for EDK2. EDK2 CryptoPkg does not support PKCS#12.
+
+## [CVE-2025-69420 – OpenSSL](https://openssl-library.org/news/vulnerabilities/#CVE-2025-69420)
+
+### Published: 1/27/2026
+
+### Recommendation:
+
+Not a problem for EDK2. EDK2 CryptoPkg has TS disabled by default.
+
+## [CVE-2025-69421 – OpenSSL](https://openssl-library.org/news/vulnerabilities/#CVE-2025-69421)
+
+### Published: 1/27/2026
+
+### Recommendation:
+
+Not a problem for EDK2. EDK2 CryptoPkg does not support PKCS#12.
+
 ## [CVE-2025-9232- OpenSSL](https://www.cve.org/CVERecord?id=CVE-2025-9232)
 
 ### Published: 9/30/2025
