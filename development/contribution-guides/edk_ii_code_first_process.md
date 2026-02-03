@@ -29,7 +29,7 @@ organization, related to the "code first" change.
 Code first implementation targeting the EDK II open source project are initially
 held in draft pull requests within a TianoCore GitHub repository.
 
-> **Note:** Consider whether the [RFC Process](../../rfc/text/0000-rfc-process.md) is needed.
+> **Note:** Consider whether the [RFC Process](../../rfc/text/0001-rfc-process.md) is needed.
 
 ## Intended workflow
 

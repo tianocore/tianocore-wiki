@@ -2,14 +2,15 @@
 
 ## Metadata
 
-- **RFC Number**: TBD
+- **RFC Number**: 0001
 - **Title**: Request For Comments (RFC) Process for TianoCore
-- **Status**: Final Comment Period (FCP)
+- **Status**: Accepted
 
 ## Change Log
 
 - 2026-01-12: Initial RFC created proposing the RFC process for TianoCore.
 - 2026-01-20: Add "partial" as a possible status reflected in directory structure.
+- 2026-02-02: RFC accepted.
 
 ## Motivation
 

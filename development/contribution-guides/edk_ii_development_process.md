@@ -28,7 +28,7 @@ the [edk2 developer mailing list](mailto:devel@edk2.groups.io?subject=Add%20to%2
 that includes your GitHub username to request access to `EDK II Collaborators`.
 
 > **Note:** For significant design changes or architectural proposals, consider using the
-> [RFC Process](../../rfc/text/0000-rfc-process.md) to gather community feedback before implementation.
+> [RFC Process](../../rfc/text/0001-rfc-process.md) to gather community feedback before implementation.
 > The standard development process described here is for code contributions, while RFCs provide structured design
 > review for major changes.
 

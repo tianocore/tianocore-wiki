@@ -162,7 +162,7 @@
 - [Charter Policies](governance/charter-policies/administration.md)
   - [Change EDK II to BSD Patent License](governance/charter-policies/change_edk_ii_to_bsd_patent_license.md)
   - [Inclusive Language Guidelines](governance/charter-policies/inclusive_language_guidelines.md)
-  - [RFC Process](rfc/text/0000-rfc-process.md)
+  - [RFC Process](rfc/text/0001-rfc-process.md)
   - [RFC Template](rfc/template.md)
 
 - [Meetings Minutes](governance/meetings-minutes/community_meeting_minutes.md)
