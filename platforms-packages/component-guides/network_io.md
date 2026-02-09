@@ -7,15 +7,9 @@
 Please see [NetworkPkg Getting Started
 Guide](NetworkPkg_Getting_Started_Guide) for EDK II updates
 
-<table>
-<tr>
-<td>![Network Layer](../../images/networklayer.jpg)
-</td>
-</tr>
-<tr>
-<td>**Figure 1. UEFI Network layering**</td>
-</tr>
-</table>
+| ![Network Layer](../../images/networklayer.jpg) |
+| :---: |
+| **Figure 1. UEFI Network layering** |
 
 This is a sub-project of the EDK project. Beginning with the developer
 snapshot 20060807, the UEFI network stack support has been added to the
@@ -76,11 +70,9 @@ Latest Versions of the UEFI Gig Undi Bin and Source:
 - Goto APPS\EFI\OPENSRC for undi source. Copy paste InteUndiPkg to edk2
   source directory and build
 
-\`\`\`
-
-`Build -p IntelGigUndiPkg.dsc`
-
-\`\`\`
+  ```
+  Build -p IntelGigUndiPkg.dsc
+  ```
 
 - Undi binaries are in EFIx64
 
