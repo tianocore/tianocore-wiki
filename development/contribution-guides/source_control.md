@@ -1,19 +1,14 @@
 # Source Control
 
-Subversion is currently the primary source control system we use.
-However, as each individual project may choose its own source control
-system, you should refer to the project's page to find the official
-source control location.
+TianoCore has been managed in git, on github, since 2016 (and briefly
+in a temporary git mirror during the major Sourceforge outage of 2015).
+Before that, it was managed in subversion on Sourceforge, mirrored to
+git and cvs.
 
-## Mirrors
+Certain artefacts of this history can be seen in older commits; the
+first commit without a `git-svn-id:` tag is dd9044b310ae2be2ae989a522979feee86b39cc8.
 
-In a few cases, some source control mirrors are available. However,
-these mirrors are **not** officially supported.
-
-| Project | [sf](http://sourceforge.net) | [github](https://github.com) | [bitbucket](https://bitbucket.org) | [sf](http://sourceforge.net) |
-|----|----|----|----|----|
-| [EDK II](http://www.tianocore.org/edk2/) | [svn](https://svn.code.sf.net/p/edk2/code) | [git](https://github.com/tianocore/edk2) | [git](https://bitbucket.org/tianocore/edk2) | [git](https://sourceforge.net/p/tianocore/edk2) |
-| [EDK
-II Fat Driver](edk2-fat-driver) | [svn](https://svn.code.sf.net/p/edk2-fatdriver2/code) |
-[git](https://github.com/tianocore/edk2-FatPkg) | [git](https://bitbucket.org/tianocore/edk2-fatpkg) |
-[git](https://sourceforge.net/p/tianocore/edk2-FatPkg) |
+Because, at least at the time of the migration, there wasn't a good
+mapping from git repo functionality to svn and cvs, we did not set up
+mirrors to these formats - https://github.com/tianocore is now the
+only canonical repository.
