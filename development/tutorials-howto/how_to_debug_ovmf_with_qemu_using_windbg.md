@@ -84,7 +84,7 @@ now.
 * You can customize this file further to suit your situation. The flash range for OVMF can be found in
     [OvmfPkg/OvmfPkgDefines.fdf.inc](https://github.com/tianocore/edk2/blob/master/OvmfPkg/OvmfPkgDefines.fdf.inc).
   * For example, for a 4MB image the flash range is currently defined as: \
-      [0xFFC00000 : 0xFFFFFFFF]
+      `[0xFFC00000 : 0xFFFFFFFF]`
 
 * `LoadModuleSymbol` is an important setting to automatically have WinDbg load source symbols and to set unresolved
     breakpoints. Though it does appear to slow the session down when enabled.

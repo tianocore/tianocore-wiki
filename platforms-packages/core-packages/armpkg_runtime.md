@@ -141,10 +141,11 @@ region
 By passing the argument 'uefi_debug', the Linux kernel dumps the UEFI
 information. Example:
 
-    EFI stub: Booting Linux Kernel...
-    Initializing cgroup subsys cpu
-Linux version 3.14.0-next-20140402+ (gcc version 4.8.3 20131111 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2013.11 -
-Linaro GCC 2013.10) ) #1 SMP PREEMPT Fri Apr 11 15:39:25 BST 2014
+    ```text
+        EFI stub: Booting Linux Kernel...
+        Initializing cgroup subsys cpu
+    Linux version 3.14.0-next-20140402+ (gcc version 4.8.3 20131111 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2013.11 -
+    Linaro GCC 2013.10) ) #1 SMP PREEMPT Fri Apr 11 15:39:25 BST 2014
     CPU: AArch64 Processor [410fd0f0] revision 0
     bootconsole [earlycon0] enabled
     efi: Getting parameters from FDT:
@@ -206,39 +207,42 @@ Linaro GCC 2013.10) ) #1 SMP PREEMPT Fri Apr 11 15:39:25 BST 2014
       0x00000c000000-0x00000ffeffff [Memory Mapped I/O]
       0x00001c170000-0x00001c170fff [Memory Mapped I/O]
     (...)
-Kernel command line: dtb=fvp-base-gicv2-psci.dtb console=ttyAMA0 earlyprintk=pl011,0x1c090000 debug uefi_debug
-root=/dev/vda2 rw
-    (...)
-    Remapping and enabling EFI services.
-      EFI remap 0x0008fafb3000 => ffffffc87afb3000
-      EFI remap 0x0008fafbf000 => ffffffc87afbf000
-      EFI remap 0x0008fafd8000 => ffffffc87afd8000
-      EFI remap 0x0008fffb9000 => ffffffc87ffb9000
-      EFI remap 0x0008fffcd000 => ffffffc87ffcd000
-      EFI remap 0x00000c000000 => ffffff8000080000
-      EFI remap 0x00001c170000 => ffffff8000012000
-      EFI freeing: 0x0000ffab1000-0x0000ffffffff
-      EFI freeing: 0x0008fa911000-0x0008fafb2fff
-      EFI freeing: 0x0008fc63d000-0x0008fc74dfff
-      EFI freeing: 0x0008fc7c1000-0x0008fc8b8fff
-      EFI freeing: 0x0008fc8d6000-0x0008fc906fff
-      EFI freeing: 0x0008fc91f000-0x0008fc937fff
-      EFI freeing: 0x0008fc976000-0x0008fc981fff
-      EFI freeing: 0x0008fc98f000-0x0008fc991fff
-      EFI freeing: 0x0008fc9b1000-0x0008fce31fff
-      EFI freeing: 0x0008fce81000-0x0008ff682fff
-      EFI freeing: 0x0008ff686000-0x0008ff686fff
-      EFI freeing: 0x0008ff699000-0x0008ff699fff
-      EFI freeing: 0x0008ff69e000-0x0008ff69efff
-      EFI freeing: 0x0008ff6a0000-0x0008ff6c4fff
-      EFI freeing: 0x0008ff6cb000-0x0008ffe28fff
-      EFI freeing: 0x0008ffe92000-0x0008fffb8fff
-      EFI freeing: 0x0008fffff000-0x0008ffffffff
-    Freed 0x4384000 bytes of EFI boot services memory
-    (...)
+
+    Kernel command line: dtb=fvp-base-gicv2-psci.dtb console=ttyAMA0 earlyprintk=pl011,0x1c090000 debug uefi_debug
+    root=/dev/vda2 rw
+        (...)
+        Remapping and enabling EFI services.
+          EFI remap 0x0008fafb3000 => ffffffc87afb3000
+          EFI remap 0x0008fafbf000 => ffffffc87afbf000
+          EFI remap 0x0008fafd8000 => ffffffc87afd8000
+          EFI remap 0x0008fffb9000 => ffffffc87ffb9000
+          EFI remap 0x0008fffcd000 => ffffffc87ffcd000
+          EFI remap 0x00000c000000 => ffffff8000080000
+          EFI remap 0x00001c170000 => ffffff8000012000
+          EFI freeing: 0x0000ffab1000-0x0000ffffffff
+          EFI freeing: 0x0008fa911000-0x0008fafb2fff
+          EFI freeing: 0x0008fc63d000-0x0008fc74dfff
+          EFI freeing: 0x0008fc7c1000-0x0008fc8b8fff
+          EFI freeing: 0x0008fc8d6000-0x0008fc906fff
+          EFI freeing: 0x0008fc91f000-0x0008fc937fff
+          EFI freeing: 0x0008fc976000-0x0008fc981fff
+          EFI freeing: 0x0008fc98f000-0x0008fc991fff
+          EFI freeing: 0x0008fc9b1000-0x0008fce31fff
+          EFI freeing: 0x0008fce81000-0x0008ff682fff
+          EFI freeing: 0x0008ff686000-0x0008ff686fff
+          EFI freeing: 0x0008ff699000-0x0008ff699fff
+          EFI freeing: 0x0008ff69e000-0x0008ff69efff
+          EFI freeing: 0x0008ff6a0000-0x0008ff6c4fff
+          EFI freeing: 0x0008ff6cb000-0x0008ffe28fff
+          EFI freeing: 0x0008ffe92000-0x0008fffb8fff
+          EFI freeing: 0x0008fffff000-0x0008ffffffff
+        Freed 0x4384000 bytes of EFI boot services memory
+        (...)
+    ```
 
 Accessing the UEFI variables from the Linux terminal:
 
+    ```text
     root@genericarmv8:~# efibootmgr -d /dev/vda
     BootCurrent: 0003
     Timeout: 5 seconds
@@ -247,6 +251,7 @@ Accessing the UEFI variables from the Linux terminal:
     Boot0003  EFI Stub
     Boot0005* grub
     root@genericarmv8:~#
+    ```
 
 ### Debugging
 

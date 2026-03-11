@@ -3,7 +3,7 @@
 ## Debugging UEFI Self Certification Test (SCT)
 
 1\. Build UEFI for your targeted ARM RTSM (RealTime System Model). See
-[ArmPlatformPkg-ArmVExpressPkg](ArmPlatformPkg-ArmVExpressPkg)
+[ArmPlatformPkg-ArmVExpressPkg](../../platforms-packages/core-packages/armplatformpkg_armvexpresspkg.md)
 for more complete instructions.
 
 For this tutorial we will use ARM Versatile Express Cortex A9x4 RTSM:
@@ -61,6 +61,7 @@ entry to allow SCT when restarted to resume its test execution.
 Select the "Boot Manager" entry and "Add Boot Device Entry" to create a
 new entry for the EDK Shell
 
+    ```text
     [1] SemiHosting
             - VenHw(C5B9C74A-6D72-4719-99AB-C59F199091EB)/zImage
             - Arguments:
@@ -93,9 +94,11 @@ new entry for the EDK Shell
     File path of the EFI Application or the kernel: Shell_Full.efi
     Is your application is an OS loader? [y/n] n
     Description for this new Entry: EDK Shell
+    ```
 
 Delete the first entry to make the EDK Shell the first one:
 
+    ```text
     [1] Add Boot Device Entry
     [2] Update Boot Device Entry
     [3] Remove Boot Device Entry
@@ -120,9 +123,11 @@ Delete the first entry to make the EDK Shell the first one:
     [2] Shell
     [3] Boot Manager
     Start:
+    ```
 
 6\. Start EDK Shell to install SCT
 
+    ```text
     EFI Shell version 2.31 [0.0]
     Current running mode 1.1.2
     Device mapping table
@@ -155,18 +160,19 @@ Delete the first entry to make the EDK Shell the first one:
               1 Dir(s)
 
     fs0:\> InstallSctArm.efi
-add-symbol-file
-/home/olimar01/tianocore/Build/UefiSct/DEBUG_RVCTLINUX/ARM/SctPkg/Application/InstallSct/InstallSct/DEBUG/InstallSct.dll
-0xBF5F7240
-    Loading driver at 0x000BF5F7000 EntryPoint=0x000BF5F8A45 InstallSct.efi
+    add-symbol-file
+    /home/olimar01/tianocore/Build/UefiSct/DEBUG_RVCTLINUX/ARM/SctPkg/Application/InstallSct/InstallSct/DEBUG/InstallSct.dll
+    0xBF5F7240
+        Loading driver at 0x000BF5F7000 EntryPoint=0x000BF5F8A45 InstallSct.efi
 
-    Gather system information ...
-      1: FS0: (Free Space: 123 MB)
-      2: fsnt0: (Free Space: 0 MB)
-      Space Required: 100 MB
-    Input index of destination FS. 'q' to exit:1
+        Gather system information ...
+          1: FS0: (Free Space: 123 MB)
+          2: fsnt0: (Free Space: 0 MB)
+          Space Required: 100 MB
+        Input index of destination FS. 'q' to exit:1
 
-    Backup the existing tests ...
+        Backup the existing tests ...
+    ```
 
 7\. Start SCT in interactive mode
 
@@ -238,23 +244,24 @@ following code in the function CheckGloballyDefinedVariables():
 Additional information might be found in the Log file defined within the
 'Logfile Name' column:
 
-    $ cat /tmp/fs/SCT/Log/GenericTest/EFICompliantTest/RequiredElements_0_0_117C9ABC-489D-4504-ACDB-12AACE8F505B.log
+    ```text
+        $ cat /tmp/fs/SCT/Log/GenericTest/EFICompliantTest/RequiredElements_0_0_117C9ABC-489D-4504-ACDB-12AACE8F505B.log
 
-    (...)
-/home/olimar01/tianocore/SctPkg/TestCase/UEFI/EFI/Generic/EfiCompliant/BlackBoxTest/EfiCompliantBBTestRequired_uefi.c:901:Status
-- Success, Expected - Success
+        (...)
+    /home/olimar01/tianocore/SctPkg/TestCase/UEFI/EFI/Generic/EfiCompliant/BlackBoxTest/EfiCompliantBBTestRequired_uefi.c:901:Status
+    - Success, Expected - Success
 
-      GetDevicePathSize         : 00000000B6E2F054
-      DuplicateDevicePath       : 00000000BF6DB521
-      AppendDevicePath          : 00000000BF6DB535
-      AppendDeviceNode          : 00000000BF6DB549
+          GetDevicePathSize         : 00000000B6E2F054
+          DuplicateDevicePath       : 00000000BF6DB521
+          AppendDevicePath          : 00000000BF6DB535
+          AppendDeviceNode          : 00000000BF6DB549
 
-    VariableName: PL031_TimeZone  is not defined in the Spec
+        VariableName: PL031_TimeZone  is not defined in the Spec
 
-    UEFI Compliant - Globally Defined Variables -- FAILURE
-    F6334F9B-B930-4ADB-A53B-76FA7B4C2762
-/home/olimar01/tianocore/SctPkg/TestCase/UEFI/EFI/Generic/EfiCompliant/BlackBoxTest/EfiCompliantBBTestRequired_uefi.c:1322,
-Illegal Variable : PL031_TimeZone
+        UEFI Compliant - Globally Defined Variables -- FAILURE
+        F6334F9B-B930-4ADB-A53B-76FA7B4C2762
+    /home/olimar01/tianocore/SctPkg/TestCase/UEFI/EFI/Generic/EfiCompliant/BlackBoxTest/EfiCompliantBBTestRequired_uefi.c:1322,
+    Illegal Variable : PL031_TimeZone
 
     Returned Status Code: Success
 
@@ -272,6 +279,7 @@ Illegal Variable : PL031_TimeZone
     Elapsed Time: 00 Days 00:00:12
 
     ------------------------------------------------------------
+    ```
 
 10\. The first step before debugging the failed test is to understand
 the test itself and why it fails.
@@ -299,7 +307,7 @@ When SCT is started in interactive mode all the SCT test binaries are
 before the tests are started from the UI.
 
 For this tutorial we will use DS-5 and its UEFI debugging scripts (see
-[ArmPkg-Ds5](ArmPkg-Ds5)).
+[ArmPkg-Ds5](armpkg_ds5.md)).
 
 For the Fast Model Versatile Express A9x4, after breaking the execution
 of the model, type within the DS-5 'Commands' window (with \$EDK2_ROOT

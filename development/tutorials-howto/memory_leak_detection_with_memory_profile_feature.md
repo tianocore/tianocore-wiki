@@ -172,7 +172,7 @@ gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfileDriverPath|{0x04, 0x06, 0x14, 0x0
     MemoryProfileLib|MdeModulePkg/Library/UefiMemoryAllocationProfileLib/UefiMemoryAllocationProfileLib.inf
   ```
 
-5. **[OPTIONAL] If you want to record the alloc info for the code calls a specific API, the specific API needs to be
+5. **\[OPTIONAL\] If you want to record the alloc info for the code calls a specific API, the specific API needs to be
 updated to call MemoryProfileLibRecord() API of MemoryProfileLib.**
 
 *For example, you want to record the alloc info for the code calls StrnCatGrow(), the code change needed will like
@@ -240,7 +240,7 @@ below.*
      gEfiSimpleFileSystemProtocolGuid              ## SOMETIMES_CONSUMES
   ```
 
-6. **[OPTIONAL, only for MSVC build] Configure build options.**
+6. **\[OPTIONAL, only for MSVC build\] Configure build options.**
 
 * Disable compiler optimization to make sure that RETURN_ADDRESS(0) can get the return address of the calling function
   correctly.
