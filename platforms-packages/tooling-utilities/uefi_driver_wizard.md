@@ -7,8 +7,7 @@ MSI)](https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UefiDri
 
 The [UEFI Driver Wizard](https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UefiDriverWizard.msi) (also
 compatible with Linux/Unix/Mac Download from this
-[github link ]
-([https://github.com/tianocore/edk2-share/tree/master/DriverDeveloper/UefiDriverWizard](https://github.com/tianocore/edk2-share/tree/master/DriverDeveloper/UefiDriverWizard))
+[github link](https://github.com/tianocore/edk2-share/tree/master/DriverDeveloper/UefiDriverWizard))
 is an open source program designed to accelerate the development of new UEFI drivers using a GUI-based template
 generator. This wizard provides basic support for the most common categories of UEFI drivers.
 

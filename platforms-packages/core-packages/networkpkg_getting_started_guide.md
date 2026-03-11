@@ -258,7 +258,7 @@ EFI_LOAD_FILE_PROTOCOL
 ## Using EDKII Network Stack on NT32
 
 To validate network stack on NT32 platform, please download the source code of
-[SnpNt32Io](../../platforms-packages/component-guides/network_io.md) and refer to the document [UEFI Network
+[SnpNt32Io](../component-guides/network_io.md) and refer to the document [UEFI Network
 Stack for EDK Getting Started Guide](https://sourceforge.net/projects/network-io/files/Documents/) to build the
 SnpNt32Io dynamic library.
 
@@ -269,11 +269,11 @@ QEMU](../../development/tutorials-howto/edkii_network_over_qemu.md) page.
 
 ## UEFI HTTP BOOT
 
-Please refer to the [UEFI HTTP Boot](../../development/design-architecture/http_boot.md) page.
+Please refer to the [UEFI HTTP Boot](../component-guides/http_boot.md) page.
 
 ## UEFI HTTPS BOOT
 
-Please refer to the [UEFI HTTPS Boot](../../development/design-architecture/https_boot.md) page.
+Please refer to the [UEFI HTTPS Boot](../component-guides/https_boot.md) page.
 
 ## EDKII DPC Protocols
 

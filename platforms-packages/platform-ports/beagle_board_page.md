@@ -3,7 +3,7 @@
 ## Beagle Board
 
 To find the latest instructions to build the BeagleBoard on Linux, see
-[BeagleBoardPkg](platforms-packages/platform-ports/beagle_board_pkg.md).
+[BeagleBoardPkg](beagle_board_pkg.md).
 
 ## Get the edk2 source tree and build BeagleBoardPkg in Windows® Cygwin Bash shell
 

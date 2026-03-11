@@ -1,6 +1,6 @@
 # Capsule Based System Firmware Update Dsc Fdf
 
-Back to [Capsule Based System Firmware Update](development/tutorials-howto/capsule_based_system_firmware_update.md)
+Back to [Capsule Based System Firmware Update](../../development/tutorials-howto/capsule_based_system_firmware_update.md)
 
 Platform DSC `[Defines]` Section
 =================================
@@ -64,19 +64,19 @@ Platform DSC `[Pcds]` Sections
 section with a value of `{0x0}` and a maximum size large enough to hold the
 `EDKII_SYSTEM_FIRMWARE_IMAGE_DESCRIPTOR` structure and its associated Unicode strings
 that are implemented in the `.aslc` file described
-[here](reference/capsule_based_system_firmware_update_implementation.md#system-firmware-descriptor-peim).
+[here](../capsule_based_system_firmware_update_implementation.md#system-firmware-descriptor-peim).
 
 * Add the PCD `PcdSystemFmpCapsuleImageTypeIdGuid` to the same `[PcdsDynamicExDefault]`
 section.  This PCD is an array of one or more `IMAGE_TYPE_ID_GUID` values.  In the simplest
 configuration, this PCD is set to the one `IMAGE_TYPE_ID_GUID` value from the the `.aslc`
-file described [here](reference/capsule_based_system_firmware_update_implementation.md#system-firmware-descriptor-peim).
+file described [here](../capsule_based_system_firmware_update_implementation.md#system-firmware-descriptor-peim).
 The PCD value is an array of 16-bytes.
 
 * Add the PCD `PcdEdkiiSystemFirmwareFileGuid` to the same `[PcdsDynamicExDefault]`
 section.  This PCD is set to a GUID value that is an array of 16-bytes.  The GUID
 value may be set to the same GUID value in the `FileGuid` statement from the System Firmware
 Update Configuration INI file described
-[here](reference/capsule_based_system_firmware_update_implementation.md#system-firmware-update-configuration-ini-file).
+[here](../capsule_based_system_firmware_update_implementation.md#system-firmware-update-configuration-ini-file).
 In the simplest configuration, this PCD is set in the DSC file to the `FileGuid` value from the
 INI file.
 
@@ -190,7 +190,7 @@ that is wrapped into a capsule that is signed using a PKCS7 certificate.
 * The `FILE RAW` statement with the `# PcdEdkiiSystemFirmwareFileGuid` comment must
 be updated with the same GUID value as the `FileGuid` statements from the System Firmware
 Update Configuration INI file described
-[here](reference/capsule_based_system_firmware_update_implementation.md#system-firmware-update-configuration-ini-file).
+[here](../capsule_based_system_firmware_update_implementation.md#system-firmware-update-configuration-ini-file).
 In the simplest configuration, there is only one `FileGuid` GUID value used in the INI
 file.  If an INI file describes updates for multiple platforms or boards, then multiple
 `FileGuid` GUID value may be used.  A `FILE RAW` statement for each `FileGuid` value must be
@@ -258,7 +258,7 @@ and that is wrapped into a capsule that is signed using a PKCS7 certificate.
 
 * The `IMAGE_TYPE_ID` statement with the `# PcdSystemFmpCapsuleImageTypeIdGuid` comment must
 be set to the `IMAGE_TYPE_ID_GUID` value from the the `.aslc` file described
-[here](reference/capsule_based_system_firmware_update_implementation.md#system-firmware-descriptor-peim).
+[here](../capsule_based_system_firmware_update_implementation.md#system-firmware-descriptor-peim).
 
 ```
 !if $(CAPSULE_ENABLE)
@@ -309,4 +309,4 @@ PEIM to the PEI FV.
   }
 ```
 
-Back to [Capsule Based System Firmware Update](development/tutorials-howto/capsule_based_system_firmware_update.md)
+Back to [Capsule Based System Firmware Update](../../development/tutorials-howto/capsule_based_system_firmware_update.md)

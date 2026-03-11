@@ -339,7 +339,7 @@ Releases](previous_edk_and_shell_releases.md)
 
 ## Sub Project
 
-[edk-apps](../../reference/edk_apps.md)
+[edk-apps](../../archives/reference/edk_apps.md)
 
 [network-io](../../platforms-packages/component-guides/network_io.md)
 

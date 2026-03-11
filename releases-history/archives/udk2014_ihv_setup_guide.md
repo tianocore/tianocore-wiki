@@ -5,21 +5,21 @@
 ### Please note
 
 It is recommended to use a more up to date version of EDK II. Please see
-the [UDK](UDK) wiki page for the
+the [UDK](udk.md) wiki page for the
 latest release.
 
 ---
 
 Reduced distribution of the
-[UDK2014](UDK2014)
+[UDK2014](udk2014.md)
 specifically for independent hardware vendors (IHV) creating UEFI
 drivers.
 
 - EDK II
-  [BaseTools](build-tooling/build-workflows/base_tools.md)
+  [BaseTools](../../build-tooling/build-workflows/base_tools.md)
   for Windows and Linux
-- [MdeModulePkg](platforms-packages/core-packages/mde_module_pkg.md)
-- [MdePkg](platforms-packages/core-packages/mde_pkg.md)
+- [MdeModulePkg](../../platforms-packages/core-packages/mde_module_pkg.md)
+- [MdePkg](../../platforms-packages/core-packages/mde_pkg.md)
 - [Release
   Notes](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.IHV-ReleaseNotes.txt/download)
   and Documentation

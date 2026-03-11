@@ -1,28 +1,28 @@
 # UEFI PI FAQ
 
-More information: [UEFI-and-PI-Wiki](UEFI-and-PI-Wiki) \|
+More information: [UEFI-and-PI-Wiki](../external-resources/uefi_and_pi_wiki.md) \|
 [PI Boot
-Flow](PI_Boot_Flow) \| [PI](PI)
+Flow](../../development/design-architecture/pi_boot_flow.md) \| [PI](../specs-standards/pi.md)
 
 **Frequently asked Questions about UEFI/PI**
 
-[Build](build-tooling/build-workflows/build.md) questions
+[Build](../../build-tooling/build-workflows/build.md) questions
 
-[Depex FAQ](Depex_FAQ)
+[Depex FAQ](depex_faq.md)
 questions
 
-[GPT FAQ](GPT_FAQ) questions
+[GPT FAQ](gpt_faq.md) questions
 
-[GUID FAQ](GUID_FAQ)
+[GUID FAQ](guid_faq.md)
 questions
 
-[HII](HII) questions
+[HII](../../platforms-packages/component-guides/hii.md) questions
 
-[PEI](PEI) questions
+[PEI](pei.md) questions
 
 [Shell](../../platforms-packages/component-guides/shell.md) questions
 
-[UEFI application](UEFI_application) questions
+[UEFI application](../../development/tutorials-howto/uefi_application.md) questions
 
 [UEFI
 Drivers](../specs-standards/uefi.md)

@@ -9,15 +9,15 @@ e.g. mkdir edk2
 ### 2) Download the Edk II source and build tools
 
 1. Latest EDK II source from following Instructions on
-    [Step by step instructions](Getting-Started-with-EDK-II)
+    [Step by step instructions](getting_started_with_edk_ii.md)
     1. i.e. example \>git clone [https://github.com/tianocore/edk2.git](https://github.com/tianocore/edk2.git)
 
 OR
 
 1. Download the latest .zip
-    [UDK2017](UDK2017)
+    [UDK2017](../../releases-history/archives/udk2017.md)
     Download release (or Latest
-    [UDK](UDK) release).
+    [UDK](../../releases-history/archives/udk.md) release).
 
 ### 3) Run the **edksetup**
 
@@ -38,9 +38,9 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
     2. Newer versions of
     Linux[Using EDK II with Native GCC](../../build-tooling/environment-setup/using_edk_ii_with_native_gcc.md)
     3. Older Linux distributions
-    [Unix-like systems](build-tooling/environment-setup/unix_like_systems.md)
+    [Unix-like systems](../../build-tooling/environment-setup/unix_like_systems.md)
     4. Mac OS X
-        [Xcode](build-tooling/environment-setup/xcode.md)
+        [Xcode](../../build-tooling/environment-setup/xcode.md)
 2. TARGET_ARCH - Optional can also use
     **"-a"**
      on the BUILD command line
@@ -60,9 +60,9 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
     Space Directory (e.g. C:\edk2\\*MyHelloWorld* or
     ~/src/edk2/*MyHelloWorld*)
 2. Create a .c file in the project directory (see example:
-    [MyHelloWorld.c](Getting_Started_Writing_MyHelloWorld.c))
+    [MyHelloWorld.c](getting_started_writing_myhelloworld_c.md))
 3. Create a .inf file in the project directory (see examle:
-    [MyHelloWorld.inf](Getting-Started-Writing-MyHelloWorld.inf))
+    [MyHelloWorld.inf](getting_started_writing_myhelloworld_inf.md))
 
 ### 6) Build your UEFI Application
 
@@ -101,4 +101,4 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
 4. Test with Windows NT 32 emulation: command prompt \>
     **Build Run**
 
-[Getting Started](development/tutorials-howto/getting_started.md)
+[Getting Started](getting_started.md)

@@ -129,11 +129,11 @@ Example:
 ## Build
 
 - Set up the
-  [Nasm](build-tooling/environment-setup/nasm_setup.md) open
+  [Nasm](nasm_setup.md) open
   source assembly compiler
 - Set up the
   [ASL
-  Compiler](build-tooling/environment-setup/asl_setup.md)
+  Compiler](asl_setup.md)
 - [Compile Tools](#compile-tools) above
 - Open a Windows CMD prompt:
 - Change to the edk2 directory
@@ -162,7 +162,7 @@ Chains' in tools_def.txt to see the valid options for TOOL_CHAIN_TAG.
 
     TOOL_CHAIN_TAG        = VS2015x86
 
-See also: [Windows-systems-ToolChain-Matrix](build-tooling/environment-setup/windows_systems_toolchain_matrix.md)
+See also: [Windows-systems-ToolChain-Matrix](windows_systems_toolchain_matrix.md)
 for how to change the Tool Chain Tag.
 
 Also, consider if you want to build a different processor architecture
@@ -187,12 +187,12 @@ be able to run successfully under the shell.
 ### Build OVMF (OPTIONAL)
 
 Once your build environment is set up you might be interested in
-building the [OVMF](platforms-packages/platform-ports/ovmf.md)
+building the [OVMF](../../platforms-packages/platform-ports/ovmf.md)
 platform which is included in the main edk2 source tree. Since
-[OVMF](platforms-packages/platform-ports/ovmf.md) builds a full
+[OVMF](../../platforms-packages/platform-ports/ovmf.md) builds a full
 system firmware image this may be of interest to UEFI system firmware
 developers.
 
 ## See Also
 
-- [Getting-Started-Writing-Simple-Application](development/tutorials-howto/getting_started_writing_simple_application.md)
+- [Getting-Started-Writing-Simple-Application](../../development/tutorials-howto/getting_started_writing_simple_application.md)

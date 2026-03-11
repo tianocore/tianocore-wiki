@@ -128,4 +128,4 @@ RealTimeClockLib for your platform
 
 ### Instruction to build ARM Versatile Express Development Board
 
-[ArmPlatformPkg-ArmVExpressPkg](ArmPlatformPkg-ArmVExpressPkg)
+[ArmPlatformPkg-ArmVExpressPkg](armplatformpkg_armvexpresspkg.md)

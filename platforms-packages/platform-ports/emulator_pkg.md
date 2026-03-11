@@ -4,8 +4,8 @@
 
 The goal of this project is to provide a common OS emulation
 environment, to replace
-[Nt32Pkg](archives/platforms-packages/nt32_pkg.md) and
-[UnixPkg](archives/platforms-packages/unix_pkg.md).
+[Nt32Pkg](../../archives/platforms-packages/nt32_pkg.md) and
+[UnixPkg](../../archives/platforms-packages/unix_pkg.md).
 
 | UEFI architecture | Operating System | Status     |
 |-------------------|------------------|------------|

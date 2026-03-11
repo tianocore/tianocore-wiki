@@ -40,5 +40,5 @@ Source: *edk2-devel mailing-list - Olivier Martin - Fri
 
 ### Related Pages
 
-- EBL Support: [EmbeddedPkg-Ebl](EmbeddedPkg-Ebl)
-- FDT Support: [EmbeddedPkg-Fdt](EmbeddedPkg-Fdt)
+- EBL Support: [EmbeddedPkg-Ebl](embeddedpkg_ebl.md)
+- FDT Support: [EmbeddedPkg-Fdt](embeddedpkg_fdt.md)

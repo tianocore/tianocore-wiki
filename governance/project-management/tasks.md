@@ -443,7 +443,7 @@ allows the network share to be mounted as a disk.
 - Mentor:
 - Suggested by: bjjohnson, andreiwarkentin
 
-More information: [Tasks-Network Block Device](governance/project-management/tasks_network_block_device.md)
+More information: [Tasks-Network Block Device](tasks_network_block_device.md)
 
 #### DNS Proxy Support
 

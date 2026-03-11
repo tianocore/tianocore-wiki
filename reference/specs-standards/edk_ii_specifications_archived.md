@@ -1,6 +1,6 @@
 # EDK II Specifications Archived
 
-current [EDK II Specifications](EDK_II_Specifications)
+current [EDK II Specifications](edk_ii_specifications.md)
 
 <table>
 

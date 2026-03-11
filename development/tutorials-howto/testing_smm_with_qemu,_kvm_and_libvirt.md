@@ -330,7 +330,7 @@ place, so that we can install the guests from zero.
 ## Libvirt domain definition (Fedora 26 guest)
 
 Download the file
-[ovmf.fedora.q35.template](libvirt-domain-templates/ovmf.fedora.q35.template)
+[ovmf.fedora.q35.template](../../libvirt-domain-templates/ovmf.fedora.q35.template)
 to the virtualization host, and define the guest from it:
 
 ```
@@ -443,7 +443,7 @@ virtualization](#enable-nested-virtualization).
 ## Libvirt domain definition (Windows 10 guest)
 
 Download the file
-[ovmf.win10.q35.template](libvirt-domain-templates/ovmf.win10.q35.template) to
+[ovmf.win10.q35.template](../../libvirt-domain-templates/ovmf.win10.q35.template) to
 the virtualization host, and define the guest from it:
 
 ```

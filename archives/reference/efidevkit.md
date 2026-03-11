@@ -10,9 +10,9 @@ The **EDK** is the open-source component of the "Framework", Intel's
 implementation of the EFI Specification, which was developed under the
 project codenamed "Tiano". The EDK was released under the
 [BSD
-License](BSD_License). Refer to the
+License](../../reference/legal-licenses/bsd_license.md). Refer to the
 [EDK
-section of the EFI and Framework Open Source FAQs](EDK.md) for a full
+section of the EFI and Framework Open Source FAQs](edk.md) for a full
 explanation of how the EDK relates to the EFI effort.
 
 ## Working with EDK
@@ -104,13 +104,13 @@ Further details are available from your Intel client BIOS support representative
 **Description**: Other Projects - Fix to the Undi EDK Intel(R) PRO/1000 Network Driver
 
 [Previous EDK and Shell
-Releases](Previous_EDK_and_Shell_Releases)
+Releases](../../releases-history/archives/previous_edk_and_shell_releases.md)
 
 ## Sub Projects
 
-[edk-apps](archives/reference/edk_apps.md)
+[edk-apps](edk_apps.md)
 
-[network-io](platforms-packages/component-guides/network_io.md)
+[network-io](../../platforms-packages/component-guides/network_io.md)
 
 License information:
 [BSD](http://www.opensource.org/licenses/bsd-license.php)
@@ -128,7 +128,7 @@ Project owner(s): ,
 ## Project Points of Contact
 
 - [EDK Module
-  Owners](modules)
+  Owners](../../development/design-architecture/modules.md)
 
 ## Useful Links
 

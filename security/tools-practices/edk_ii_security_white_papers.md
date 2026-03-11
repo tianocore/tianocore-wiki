@@ -73,24 +73,20 @@ A list of White Papers and information for EDK II Security from multiple sources
   Overview](https://uefi.org/sites/default/files/resources/Traceable%20Firmware%20Bill%20of%20Materials%20-%2020211207%20-%20007.pdf)
 
 **DMA:**
-[A Tour Beyond BIOS - Using IOMMU for DMA Protection in UEFI firmware]
-(https://software.intel.com/sites/default/files/managed/8d/88/intel-whitepaper-using-iommu-for-dma-protection-in-uefi.pdf)
- (Oct 2017)
+[A Tour Beyond BIOS - Using IOMMU for DMA Protection in UEFI firmware](https://software.intel.com/sites/default/files/managed/8d/88/intel-whitepaper-using-iommu-for-dma-protection-in-uefi.pdf)
+(Oct 2017)
 
 **Capsule/Recovery:**
-[A Tour Beyond BIOS - Capsule Update and Recovery in EDK II]
-(https://github.com/tianocore-docs/Docs/blob/main/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf)
- (Dec 2016)
+[A Tour Beyond BIOS - Capsule Update and Recovery in EDK II](https://github.com/tianocore-docs/Docs/blob/main/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf)
+(Dec 2016)
 
 **S3:**
-[A Tour Beyond BIOS - Implementing S3 Resume with EDK II]
-(https://github.com/tianocore-docs/Docs/blob/main/White_Papers/A_Tour_Beyond_BIOS_Implementing_S3_resume_with_EDKII_V2.pdf)
- (Oct 2015)
+[A Tour Beyond BIOS - Implementing S3 Resume with EDK II](https://github.com/tianocore-docs/Docs/blob/main/White_Papers/A_Tour_Beyond_BIOS_Implementing_S3_resume_with_EDKII_V2.pdf)
+(Oct 2015)
 
 **Profile:**
-[A Tour Beyond BIOS - Implementing Profiling in EDK_II]
-(https://github.com/tianocore-docs/Docs/blob/main/White_Papers/A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDK_II.pdf)
- (July 2016)
+[A Tour Beyond BIOS - Implementing Profiling in EDK_II](https://github.com/tianocore-docs/Docs/blob/main/White_Papers/A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDK_II.pdf)
+(July 2016)
 
 **STM/VMM:**
 
@@ -106,5 +102,5 @@ A list of White Papers and information for EDK II Security from multiple sources
 
 **StandaloneMM:**
 [A Tour Beyond BIOS - Launching Standalone SMM Drivers in the PEI Phase using EDK
-II](https://www.intel.com/content/dam/develop/public/us/en/documents/a-tour-beyond-bios-launching-standalone-smm-drivers-in-pei-using-the-efi-developer-kit-ii.pdf) (May 2015)
-[A Tour Beyond BIOS - Launching Standalone SMM Drivers in the PEI Phase using EDK
+II](https://www.intel.com/content/dam/develop/public/us/en/documents/a-tour-beyond-bios-launching-standalone-smm-drivers-in-pei-using-the-efi-developer-kit-ii.pdf)
+(May 2015)

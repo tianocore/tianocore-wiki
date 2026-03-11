@@ -64,7 +64,7 @@ A Contributor is anyone with interest in contributing to Tianocore.org
 1. Create a Github account: [https://github.com/](https://github.com/)
 
 2. Join the EDK II Project Mailing list: [Mailing
-List](../../community/communications/mailing_lists.md)
+List](../communications/mailing_lists.md)
 
 3. Follow the guidelines for submitting a code contribution by the EDK
     II Project Code Contributions process:

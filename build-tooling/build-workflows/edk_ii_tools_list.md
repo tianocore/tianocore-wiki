@@ -1,8 +1,8 @@
 # Tool Information
 
-This is a table of all of the tools that are part of the [EDK II BaseTools](edk2-buildtools).
+This is a table of all of the tools that are part of the [EDK II BaseTools](edk2_buildtools.md).
 
-To build these tools see [BuildTool Setup Guide](BuildTool_Setup_Guide).
+To build these tools see [BuildTool Setup Guide](../environment-setup/buildtool_setup_guide.md).
 
 | Tool Name | Tool Description |
 | --- | --- |

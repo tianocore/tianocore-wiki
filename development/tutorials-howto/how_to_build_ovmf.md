@@ -2,20 +2,20 @@
 
 Building [OVMF](../../platforms-packages/platform-ports/ovmf.md) is fairly easy once you have installed a few
 pre-requisites. Please note, however, that building OVMF is not required if you are only interested in [running
-OVMF](How-to-run-OVMF "wikilink"), since we have provided pre-built binaries of OVMF.
+OVMF](how_to_run_ovmf.md), since we have provided pre-built binaries of OVMF.
 
 Build Pre-requisites
 --------------------
 
 - A edk2 build tree capable of building UEFI images
-  - If you are new to edk2 building then these [getting started](Getting-Started-with-EDK-II) instructions may be
+  - If you are new to edk2 building then these [getting started](getting_started_with_edk_ii.md) instructions may be
     helpful.
 - An ASL compiler configured in your edk2 build tree
   - Either the IASL compiler or the Microsoft ASL compiler can be used
     - For Unix-like operating systems, IASL is the only option:
 - For newer Linux distributions, you should be able to install iasl via the distribution's package management system.
 (This [page](../../build-tooling/environment-setup/using_edk_ii_with_native_gcc.md) may help.)
-      - Or, the [Unix-like systems getting started guide](build-tooling/environment-setup/unix_like_systems.md) includes details for installing IASL as
+      - Or, the [Unix-like systems getting started guide](../../build-tooling/environment-setup/unix_like_systems.md) includes details for installing IASL as
         well.
     - For Windows, you can download pre-built version of IASL compiler from
       [http://www.acpica.org](http://www.acpica.org).
@@ -48,7 +48,7 @@ Once you have modified Conf/target.txt, you can run the build command.
 If successful, you should now have a OVMF.Fd file under the Build sub-directory. The exact directory under the Build
 directory will depend upon the toolchain, dsc and processor architecture.
 
-You can use OVMF.Fd to [run OVMF](How-to-run-OVMF "wikilink").
+You can use OVMF.Fd to [run OVMF](how_to_run_ovmf.md).
 
 See Also
 --------

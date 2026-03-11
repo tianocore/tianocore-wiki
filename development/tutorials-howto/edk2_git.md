@@ -1,9 +1,9 @@
 # EDK2 git
 
 Note: If you are simply looking for an
-[EDK II git repository](development/contribution-guides/source_control.md), then visit the
+[EDK II git repository](../contribution-guides/source_control.md), then visit the
 [Source
-Control](development/contribution-guides/source_control.md) page.
+Control](../contribution-guides/source_control.md) page.
 
 The [EDK II](http://www.tianocore.org/edk2/) project uses the subversion
 source control system. But, as [git](http://git-scm.org) is a source
@@ -14,19 +14,19 @@ II, as well as other EDK II git information.
 
 ## Contributors without svn commit access
 
-EDK II uses [package maintainers](EDKII_Packages) to own reviewing and
+EDK II uses [package maintainers](../../platforms-packages/core-packages/edkii_packages.md) to own reviewing and
 committing contributions for a package. This means that most
 contributors don't really need to interface with svn if they prefer to
 use git.
 
 In this scenario, the contributor can clone from one of the EDK II
 [git
-mirrors](development/contribution-guides/source_control.md). They can then:
+mirrors](../contribution-guides/source_control.md). They can then:
 
 1. Make their changes in git as usual
 2. Use git format-patch / send-email as normal to publish the changes
     to
-    [edk2-devel](edk2-devel)
+    [edk2-devel](../../community/communications/mailing_lists.md)
 
 Of course, when the package maintainer commits your change, your
 authorship of the commit will be lost, as svn does not maintain separate
@@ -36,12 +36,12 @@ author/committer metadata.
 
 If you would prefer for EDK II to use git, then one of the most helpful
 things you can do is mention it on
-[edk2-devel](edk2-devel).
+[edk2-devel](../../community/communications/mailing_lists.md).
 Silence will generally favor and the Status quo / staying on svn.
 
 Other than this, your best bet is to use the
 [git
-mirrors](development/contribution-guides/source_control.md) of svn to make it clear that this is how you prefer to work.
+mirrors](../contribution-guides/source_control.md) of svn to make it clear that this is how you prefer to work.
 
 Use of git send-email, pushing your tree to a publicly accessible
 location and mentioning that your changes are available in a branch,
@@ -50,7 +50,7 @@ will help raise awareness of the usefulness of git as well.
 ## Discussions of converting to git
 
 Git is mentioned occasionally on
-[edk2-devel](edk2-devel).
+[edk2-devel](../../community/communications/mailing_lists.md).
 
 In February 2013 there was such a
 [discussion](https://sourceforge.net/mailarchive/message.php?msg_id=30431526),
@@ -72,6 +72,6 @@ some of the information from that email thread:
 ## See Also
 
 - [EDK II
-  git-svn](EDK_II_git-svn) (For
+  git-svn](edk_ii_git_svn.md) (For
   [package
-  owners](EDKII_Packages) / svn committers)
+  owners](../../platforms-packages/core-packages/edkii_packages.md) / svn committers)

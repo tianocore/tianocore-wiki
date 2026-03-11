@@ -28,7 +28,7 @@ following field values:
 * Product: EDK2 Platforms
 * Component: Minnowboard 3
 
-See [Reporting Issues](community/support-onboarding/reporting_issues.md) for more information.
+See [Reporting Issues](../../community/support-onboarding/reporting_issues.md) for more information.
 
 ## Supported Platforms
 
@@ -60,7 +60,7 @@ More Info:
 
 ### MinnowBoard 3 Module
 
-MinnowBoard 3 Module is the follow-on to the [MinnowBoard Max](platforms-packages/platform-ports/minnow_board_max.md) & MinnowBoard Turbot platforms.
+MinnowBoard 3 Module is the follow-on to the [MinnowBoard Max](minnow_board_max.md) & MinnowBoard Turbot platforms.
 MinnowBoard platforms offer low cost & commercially available open hardware based on Intel Architecture for hardware,
 software and firmware developers. Hardware availability is TBD.
 

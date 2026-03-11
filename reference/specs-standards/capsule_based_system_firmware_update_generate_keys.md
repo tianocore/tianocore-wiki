@@ -1,6 +1,6 @@
 # Capsule Based System Firmware Update Generate Keys
 
-Back to [Capsule Based System Firmware Update](development/tutorials-howto/capsule_based_system_firmware_update.md)
+Back to [Capsule Based System Firmware Update](../../development/tutorials-howto/capsule_based_system_firmware_update.md)
 
 ## How to Generate Signing Keys using OpenSSL Command Line Utilities
 
@@ -178,4 +178,4 @@ authenticate capsule based system firmware update images.
 * **`NewCert.pem`**: Signer private certificate that is passed in the `--signer-private-cert` flag of the EDK II
   `Pkcs7Sign` utility.
 
-Back to [Capsule Based System Firmware Update](development/tutorials-howto/capsule_based_system_firmware_update.md)
+Back to [Capsule Based System Firmware Update](../../development/tutorials-howto/capsule_based_system_firmware_update.md)

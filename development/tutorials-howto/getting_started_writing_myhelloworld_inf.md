@@ -3,7 +3,7 @@
 Example of MyHelloWorld.inf
 
 Please check for the latest version of the
-[EDK II Specifications](EDK_II_Specifications)
+[EDK II Specifications](../../reference/specs-standards/edk_ii_specifications.md)
 
 Note: Copy and paste the GUID from : [http://www.guidgen.com/](http://www.guidgen.com/) for the
 **FILE_GUID** in the example below

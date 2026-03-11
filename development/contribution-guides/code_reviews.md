@@ -27,7 +27,7 @@ think are needed. The author will need to mark those feedback items as
 resolved before the pull request can be completed.
 
 Please consider
-[Code Style](development/coding-standards/code_style.md)
+[Code Style](../coding-standards/code_style.md)
 issues as part of your code review.
 
 ## Resubmit Code
@@ -37,4 +37,4 @@ and force push to your fork branch to update the pull request.
 
 ## See Also
 
-- [Code Style](development/coding-standards/code_style.md)
+- [Code Style](../coding-standards/code_style.md)

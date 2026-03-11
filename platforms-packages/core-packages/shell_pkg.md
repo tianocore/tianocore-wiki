@@ -3,7 +3,7 @@
 **[ShellPkg](https://github.com/tianocore/edk2/tree/master/ShellPkg)**
 is an
 [EDK II
-Package](EDKII_Packages) that provides a native implementation of the UEFI Shell 2.x
+Package](edkii_packages.md) that provides a native implementation of the UEFI Shell 2.x
 specifications.
 
 [1](https://github.com/tianocore/edk2/tree/master/ShellPkg)
@@ -28,7 +28,7 @@ for more info.
 - [Shell Library Primer](../component-guides/shell.md)
 - [Creating a Shell Application](../component-guides/Shell.md)
 - [Porting an EDK Shell
-  Extension](Porting_an_EDK_Shell_Extension)
+  Extension](../../development/tutorials-howto/porting_an_edk_shell_extension.md)
 - [Move a Shell
   Application to internal command](../component-guides/Shell.md)
 - [Shell FAQ](../component-guides/Shell.md)
@@ -45,7 +45,7 @@ for more info.
 
 ## ShellPkg versus EdkShellPkg
 
-The **[EdkShellPkg](archives/platforms-packages/edk_shell_pkg.md)** implements an older version of the
+The **[EdkShellPkg](../../archives/platforms-packages/edk_shell_pkg.md)** implements an older version of the
 EFI Shell, prior to standardization by the UEFI Forum. Please treat
 *EdkShellPkg**and**EdkShellBinPkg*' as end-of-life code.
 

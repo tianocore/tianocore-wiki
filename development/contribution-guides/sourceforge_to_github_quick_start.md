@@ -30,7 +30,7 @@ be found at [https://github.com/tianocore/edk2-non-osi](https://github.com/tiano
 feature to configure the EDK II BaseTools. More information on the
 Multiple Workspace feature can be found at the following location.
 
-- [Multiple\_Workspace](Multiple_Workspace "wikilink")
+- [Multiple\_Workspace](../../build-tooling/build-workflows/multiple_workspace.md)
 
 ### Linux Support
 
@@ -157,6 +157,6 @@ The process is documented on the [EDK II Development Process](edk_ii_development
 **See Also**
 ------------
 
-- [Commit-Message-Format](Commit-Message-Format "wikilink")
-- [Commit-Partitioning](Commit-Partitioning "wikilink")
-- [Code-Style](Code-Style "wikilink")
+- [Commit-Message-Format](commit_message_format.md)
+- [Commit-Partitioning](commit_partitioning.md)
+- [Code-Style](../coding-standards/code_style.md)

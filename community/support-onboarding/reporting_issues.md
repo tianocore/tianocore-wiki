@@ -7,6 +7,6 @@ project issue page and type New issue, you will enter into the page to submit th
 Feature or security issue.
 
 Security Advisories and the process used to evaluate security issues can be found in [Reporting Security
-Issues](Reporting-Security-Issues "wikilink")
+Issues](../../security/processes/reporting_security_issues.md)
 
 **NOTE:** Never send any security issue details in email.

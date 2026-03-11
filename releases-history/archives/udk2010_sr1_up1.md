@@ -424,7 +424,7 @@ modules
 
 <td>
 
-The [MdePkg](platforms-packages/core-packages/mde_pkg.md) Document
+The [MdePkg](../../platforms-packages/core-packages/mde_pkg.md) Document
 Package Helper file. This Package provides all definitions(including
 functions, MACROs, structures and library classes) and libraries
 instances, which are defined in MDE Specification. It also provides the
@@ -462,7 +462,7 @@ and some Industry Standards.
 <td>
 
 The
-[NetworkPkg](platforms-packages/core-packages/network_pkg.md)
+[NetworkPkg](../../platforms-packages/core-packages/network_pkg.md)
 Document Package Helper file. This package provides network modules that
 conform to UEFI 2.2 specification.
 
@@ -490,7 +490,7 @@ conform to UEFI 2.2 specification.
 
 <td>
 
-The [SecurityPkg](platforms-packages/core-packages/security_pkg.md) Document Package Helper file. This
+The [SecurityPkg](../../platforms-packages/core-packages/security_pkg.md) Document Package Helper file. This
 package includes the security drivers, defintions(including
 PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances
 
@@ -585,7 +585,7 @@ What’s in the Download?
 
 <td>
 
-[**Driver Dev Page**](development/tutorials-howto/driver_developer.md)
+[**Driver Dev Page**](../../development/tutorials-howto/driver_developer.md)
 
 </td>
 
@@ -593,7 +593,7 @@ What’s in the Download?
 
 UEFI Driver Writer's Wizard and the UEFI Driver Writer's Guide supports
 UEFI 3.2.1 version of the Specification. See the
-[Driver-Developer](development/tutorials-howto/driver_developer.md) page for more resources
+[Driver-Developer](../../development/tutorials-howto/driver_developer.md) page for more resources
 for UEFI Driver Writers Resources
 
 </td>
@@ -652,7 +652,7 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_
 <td>
 
 EDK II Application Development Kit
-[(EADK)](../../platforms-packages/core-packages/EDKII-EADK.md) Alpha
+[(EADK)](../../platforms-packages/core-packages/edkii_eadk.md) Alpha
 2 Release Package incorporates using the Standard C Library components.
 Include these into standard "C" applications. See the AppPkg for "Hello
 World" example
@@ -667,11 +667,11 @@ World" example
 
 Packages Included in zip
 
-[AppPkg](platforms-packages/core-packages/app_pkg.md)
+[AppPkg](../../platforms-packages/core-packages/app_pkg.md)
 
-[StdLib](platforms-packages/core-packages/std_lib.md)
+[StdLib](../../platforms-packages/core-packages/std_lib.md)
 
-[StdLibPrivateInternalFiles](platforms-packages/core-packages/std_lib.md)
+[StdLibPrivateInternalFiles](../../platforms-packages/core-packages/std_lib.md)
 
 </td>
 
@@ -684,7 +684,7 @@ Packages Included in zip
 [UEFI Shell 2.0 Pkg
 .zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
 
-[Shell 2.0 Documentation](platforms-packages/core-packages/shell_pkg.md)
+[Shell 2.0 Documentation](../../platforms-packages/core-packages/shell_pkg.md)
 
 </td>
 
@@ -699,14 +699,13 @@ This release is the implmentation sources for the UEFI Shell
 Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
 specification
 
-See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/Shell
-FAQ.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
+See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/shell_faq.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
 
 </td>
 
 <td>
 
-[ShellPkg](platforms-packages/core-packages/shell_pkg.md) .zip
+[ShellPkg](../../platforms-packages/core-packages/shell_pkg.md) .zip
 Package
 
 </td>
@@ -722,7 +721,7 @@ Developers](../../development/tutorials-howto/getting_started_with_edk_ii.md),
 [EDK
 II Overview](../../reference/external-resources/edk_ii_overview.md),
 [EDKII
-Packages](../../platforms-packages/core-packages/EDKII-Packages.md)
+Packages](../../platforms-packages/core-packages/edkii_packages.md)
 
 UEFI Developers Kit 2010 (UDK2010). The UDK2010 is the EDKII support for
 all currently published [UEFI specifications](http://www.uefi.org)

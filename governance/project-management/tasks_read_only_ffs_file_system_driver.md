@@ -12,7 +12,7 @@ PI 1.2 FFS in the system to appear as a UEFI file system.
 
 - Completed :heavy_check_mark:
 - Work done by Colin Drake as a
-  [GSOC2011](GSOC2011)
+  [GSOC2011](../../community/events-outreach/gsoc2011.md)
   student.
   - Source: [https://github.com/cfdrake/FileSystemPkg](https://github.com/cfdrake/FileSystemPkg)
 
@@ -45,8 +45,8 @@ toolchain.
 Testing: This project can be tested on any PI 1.2 system. Even without
 loading the driver into flash, it can be loaded by using the EFI shell
 'load' command. [OVMF](http://www.tianocore.org/ovmf/),
-[Nt32Pkg](archives/platforms-packages/nt32_pkg.md) or
-[UnixPkg](archives/platforms-packages/unix_pkg.md) could
+[Nt32Pkg](../../archives/platforms-packages/nt32_pkg.md) or
+[UnixPkg](../../archives/platforms-packages/unix_pkg.md) could
 each provide friendly test environments.
 
 ## Further Discussion
@@ -56,6 +56,6 @@ project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
 ## See Also
 
-- [Tasks](governance/project-management/tasks.md)
+- [Tasks](tasks.md)
 - [GSOC2011#Read-only FFS
   file-system driver](../../community/events-outreach/GSOC2011.md)

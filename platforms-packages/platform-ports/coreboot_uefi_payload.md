@@ -2,7 +2,7 @@
 
 ## Outdated
 
-Please see the updated page [UefiPayloadpkg](UefiPayloadpkg) that replaces the
+Please see the updated page [UefiPayloadpkg](../core-packages/uefi_payload_pkg.md) that replaces the
 CorebootModulePkg and CorebootPayloadPkg
 
 ### Coreboot

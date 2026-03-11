@@ -3,7 +3,7 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: [Build Instructions](build-tooling/build-workflows/build_instructions.md)
+New instructions: [Build Instructions](../build-workflows/build_instructions.md)
 
 GitHub ([https://help.github.com/index.html](https://help.github.com/index.html)) provides step-by-step
 instructions for user registration and basic features supported by
@@ -45,7 +45,7 @@ applications can be created in Python, using the wxPython package and
 all Python applications can be converted to run under a native OS
 (Windows, Linux or OS/X.) via the
 [Python
-Tools](Python_Tools).
+Tools](../../platforms-packages/tooling-utilities/python_tools.md).
 
 The tools in this section are NOT required to build the EDK II project;
 they are needed to compile the BaseTools used to build the EDK II
@@ -55,7 +55,7 @@ project.
   that will be used to hold the files, then change to that directory.
   - Replace URL with apropriate one from
     [Python
-    Tools](Python_Tools). Installation and configuration for these tools are left
+    Tools](../../platforms-packages/tooling-utilities/python_tools.md). Installation and configuration for these tools are left
     to the developer.
 
 Refer to documentation in either the UserManuals or Source folders for
@@ -71,12 +71,12 @@ See [Getting Started with EDK II](../../development/tutorials-howto/getting_star
 ## EDK II Development Process
 
 After setting up your build environment see
-[EDK II Development Process](EDK_II_Development_Process) for
+[EDK II Development Process](../../development/contribution-guides/edk_ii_development_process.md) for
 making contributions to the EDK II Project.
 
 ## Further Help
 
 If you have questions about the code or run into obstacles getting
 things to work for you, please join our
-[edk2-devel](edk2-devel)
+[edk2-devel](../../community/communications/mailing_lists.md)
 email list and ask your EDK II related questions on the list.

@@ -1,6 +1,6 @@
 # Modules
 
-The [EDK](EDK) Module Structure
+The [EDK](../../reference/external-resources/edk2.md) Module Structure
 Explained
 
 The following three tables explain the structure of the EDK source code.

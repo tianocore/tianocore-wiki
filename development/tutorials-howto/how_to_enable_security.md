@@ -1,6 +1,6 @@
 # Security Features Implemented in EDK II
 
-[EDK II](EDK_II) implements a
+[EDK II](../../reference/external-resources/edk_ii.md) implements a
 variety of platform security features. These are typically disabled or
 absent in open hardware platforms. While some platforms implement these
 with enable/disable build flags, other platforms require additional
@@ -17,7 +17,7 @@ platforms's firmware rollback rules.
 
 Please refer to
 [Capsule
-Based Firmware Update and Firmware Recovery](Capsule_Based_Firmware_Update_and_Firmware_Recovery) for detailed porting
+Based Firmware Update and Firmware Recovery](../../reference/specs-standards/capsule_based_firmware_update_and_firmware_recovery.md) for detailed porting
 instructions.
 
 ## Enabling UEFI Secure Boot
@@ -25,7 +25,7 @@ instructions.
 ### How to add Secure Boot to DSC and FDF
 
 **Note:** Information for this section was written based on the
-[UDK2010.SR1](UDK2010)
+[UDK2010.SR1](../../releases-history/archives/udk2010.md)
 release
 
 Based on original variable driver in MdeModulePkg, variable driver in
@@ -163,7 +163,7 @@ should be replaced by following drivers in step 5 and 6:
 ## Enable User Identification
 
 **Note:** Information for this section was written based on the
-[UDK2010.SR1](UDK2010)
+[UDK2010.SR1](../../releases-history/archives/udk2010.md)
 release
 
 In UID (User Identification) infrastructure, there are 4 UEFI drivers,
@@ -264,7 +264,7 @@ token file.
 ## Enabling Trusted Compute Module (TPM)
 
 **Note:** Information for this section was written based on the
-[UDK2010.SR1](UDK2010)
+[UDK2010.SR1](../../releases-history/archives/udk2010.md)
 release
 
 TCG measured boot consists of two PEI modules, four DXE drivers and

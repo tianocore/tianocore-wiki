@@ -10,7 +10,7 @@ Below for archive reference only
 ------------------------------------------------------------------------
 
 - **IMPORTANT:** All mail sent via this reflector are TianoCore
-  [Code Contributions](development/contribution-guides/code_contributions.md)
+  [Code Contributions](../../development/contribution-guides/code_contributions.md)
 
 - **IMPORTANT:** Please consider encrypting your message. We support
   S/MIME. If you do not have encryption available, describe the issue in

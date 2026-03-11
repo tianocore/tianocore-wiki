@@ -1,7 +1,7 @@
 # EDK II Build Tools Project
 
 This project is for development of the
-[EDK II](EDK_II) Build Tools.
+[EDK II](../../reference/external-resources/edk_ii.md) Build Tools.
 This is the primary set of tools for processing [EDK
 II](http://www.tianocore.org/edk2/) content. It contains configuration
 templates and source files. The tools support a Makefile based EDK II
@@ -21,7 +21,7 @@ Tools must adhere to the following requirements:
 - Tools must be able to execute on a wide variety of operating systems.
 - Tools written in Python use
   [Python
-  Tools](Python_Tools) and get converted to Win32 executable binary files before
+  Tools](../../platforms-packages/tooling-utilities/python_tools.md) and get converted to Win32 executable binary files before
   they are added to the BaseTools directory in the EDK II project.
 
 To assist developers working with the Python tools, Python has been
@@ -39,14 +39,14 @@ Refer to the BuildNotes2.txt file for details on using the BaseTools for
 the build.
 
 Download and setup guide:
-[BuildTool Setup Guide](BuildTool_Setup_Guide)
+[BuildTool Setup Guide](../environment-setup/buildtool_setup_guide.md)
 
 - Prebuilt Windows tools are available at
   [https://github.com/tianocore/edk2-BaseTools-win32.git](https://github.com/tianocore/edk2-BaseTools-win32.git)
   - Note: the Prebuilt Windows tools (Win32 binaries) are only valid for
     the tip of [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2). It is recommended to
     build the source tools for other EDK II branches and projects:
-    Please see: [Windows-systems#compile-tools](build-tooling/environment-setup/windows_systems.md#compile-tools)
+    Please see: [Windows-systems#compile-tools](../environment-setup/windows_systems.md#compile-tools)
 - BaseTools content (part of the edk2 project) is available at:
   [https://github.com/tianocore/edk2.git](https://github.com/tianocore/edk2.git)
 
@@ -56,17 +56,17 @@ ReadMe](https://github.com/tianocore/edk2/tree/master/BaseTools/ReadMe.txt)
 Documentation [User
 Manuals](https://github.com/tianocore/edk2/tree/master/BaseTools/UserManuals)
 
-View the [EDK II Tools List](EDK_II_Tools_List) for a description of
+View the [EDK II Tools List](edk_ii_tools_list.md) for a description of
 each tool.
 
 ## Releases
 
-[UDK2017](UDK2017):
+[UDK2017](../../releases-history/archives/udk2017.md):
 
 - Changes for UDK2017 [BaseTools
   Notes](https://github.com/tianocore-docs/Docs/blob/master/UDK/UDK2017/BaseToolsNotes.md)
 - Please see
-  [UDK2017](UDK2017) wiki
+  [UDK2017](../../releases-history/archives/udk2017.md) wiki
   page for more information on the latest release of Build Tools
 
 UDK2015 :
@@ -165,7 +165,7 @@ Below Table are Releases for Archive purposes only
 ## Notes
 
 These tools are under constant development to ensure
-[UEFI](UEFI)/PI specification
+[UEFI](../../reference/specs-standards/uefi.md)/PI specification
 conformance and to reduce build times.
 
 Your Feedback is critical to making EDK II a success. Please submit any
@@ -173,10 +173,10 @@ enhancements, defects, or requests through the
 [edk2-devel mailing list](mailto:edk2-devel@lists.01.org?subject=BuildTools&body=BuildTools).
 
 Goto
-[edk2-devel](edk2-devel)
+[edk2-devel](../../community/communications/mailing_lists.md)
 to Join the Mailing list
 
-License information: [BSD Plus Patent License](BSD_Plus_Patent_License)
+License information: [BSD Plus Patent License](../../reference/legal-licenses/bsd_plus_patent_license.md)
 
 Project owner(s): See:
 [Maintainers.txt](https://raw.githubusercontent.com/tianocore/edk2/master/Maintainers.txt)

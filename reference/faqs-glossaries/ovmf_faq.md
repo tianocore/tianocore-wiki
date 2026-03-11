@@ -38,7 +38,7 @@ is built upon the EDK II code base.
 
 ### What source code license does OVMF use?
 
-OVMF follows the EDK II project in using the open source [BSD+Patent](reference/legal-licenses/bsd_plus_patent_license.md) license.
+OVMF follows the EDK II project in using the open source [BSD+Patent](../legal-licenses/bsd_plus_patent_license.md) license.
 Some OVMF content is convered by additional licenses detailed in
 [OvmfPkg/License.txt](https://github.com/tianocore/edk2/blob/master/OvmfPkg/License.txt).
 

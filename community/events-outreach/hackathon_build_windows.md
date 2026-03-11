@@ -81,4 +81,4 @@ The file is in the form `MNW2MAX1.X64.0084.D01.<DATE>.bin`.
 
 The CapsuleApp and generated UEFI Capsules are in `Build/Vlv2TbltDevicePkg/Capsules`
 
-Now you are ready to [flash the image, generate a capsule, and test it!](community/events-outreach/hackathon_flash_image_and_generate_capsule.md)
+Now you are ready to [flash the image, generate a capsule, and test it!](hackathon_flash_image_and_generate_capsule.md)

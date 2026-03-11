@@ -23,7 +23,7 @@ Build a C compiler that is able to generate EBC (EFI Byte Code).
 - Suggested by: [https://github.com/nate-desimone](https://github.com/nate-desimone)
 
 More information:
-[Tasks-Build-a-C-compiler-for-EBC](Tasks-Build-a-C-compiler-for-EBC)
+[Tasks-Build-a-C-compiler-for-EBC](../../governance/project-management/tasks_build_a_c_compiler_for_ebc.md)
 
 ## Compatibility Support Module
 
@@ -56,7 +56,7 @@ based on open source platform in EDK II.
 [https://github.com/tianocore/edk2/tree/master/QuarkPlatformPkg](https://github.com/tianocore/edk2/tree/master/QuarkPlatformPkg)
 
 - Switch from private SD/MMC stack to standard one in
-  [MdeModulePkg](platforms-packages/core-packages/mde_module_pkg.md).
+  [MdeModulePkg](../../platforms-packages/core-packages/mde_module_pkg.md).
 - Debugger/Console using USB client mode for multiple high perf UARTs in
   ESRAM
 - Logging and Debugger support over USB using ESRAM for DMA.
@@ -83,4 +83,4 @@ Mentor: [https://github.com/mdkinney](https://github.com/mdkinney),
 
 ## See Also
 
-- [How To Contribute](development/contribution-guides/how_to_contribute.md)
+- [How To Contribute](../../development/contribution-guides/how_to_contribute.md)

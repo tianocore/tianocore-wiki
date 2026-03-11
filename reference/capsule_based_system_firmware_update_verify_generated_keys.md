@@ -5,11 +5,11 @@ Back to [Capsule Based System Firmware Update](../development/tutorials-howto/ca
 The following steps can be used to verify that the capsule-based system firmware update
 feature has been integrated into a platform correctly.  These steps use generated keys
 for a specific platform.  One key generation method is described in
-[Capsule Based System Firmware Update Generate Keys](../specs-standards/capsule_based_system_firmware_update_generate_keys.md).
+[Capsule Based System Firmware Update Generate Keys](specs-standards/capsule_based_system_firmware_update_generate_keys.md).
 
 The steps provided in this section are focused on verifying the use of generated keys.  A
 more complete set of verification steps for the test signing key are provided in
-[Capsule Based System Firmware Update Verify Test Keys](../specs-standards/capsule_based_system_firmware_update_verify_test_keys.md).
+[Capsule Based System Firmware Update Verify Test Keys](specs-standards/capsule_based_system_firmware_update_verify_test_keys.md).
 These steps use the `CapsuleApp.efi` utility to display and verify fields in the FMP, ESRT,
 and Capsule structures.
 
@@ -53,7 +53,7 @@ to the generated public key.  The example below adds the generated public key to
 `[PcdsDynamicExVpd]` section.  `<MaxSize>` must be set to a value that is at least as big as
 the number of bytes in the generated `<public key>`.  `<public key>` is the list of bytes
 from the binary `.cer` file that is described in
-[Capsule Based System Firmware Update Generate Keys](../specs-standards/capsule_based_system_firmware_update_generate_keys.md#x509-certificate-chain-files).
+[Capsule Based System Firmware Update Generate Keys](specs-standards/capsule_based_system_firmware_update_generate_keys.md#x509-certificate-chain-files).
 A hex dump utility may be used to convert the binary file to the list of hex values.  The
 example below shows the PCD setting for the test signing public key from the file
 `BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer`

@@ -7,7 +7,7 @@ Frequently asked questions about HII
 Visual Forms Representation (VFR) it is a language like syntax for
 describing forms and pages used for setup like screens. VFR is compiled
 and produces Internal Forms Representation (IFR) The VFR Spec can be
-downloaded from the [EDK-II-Specifications](EDK-II-Specifications) page
+downloaded from the [EDK-II-Specifications](../../reference/specs-standards/edk_ii_specifications.md) page
 
 ### What is VFR class & subclass?
 

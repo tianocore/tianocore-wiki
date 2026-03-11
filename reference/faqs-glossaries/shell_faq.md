@@ -1,6 +1,6 @@
 # Shell FAQ
 
-[shell](platforms-packages/component-guides/shell.md)
+[shell](../../platforms-packages/component-guides/shell.md)
 
 Shell questions
 

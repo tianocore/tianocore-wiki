@@ -33,7 +33,7 @@ For EDK II, yes, the build tools will need to be recompiled for GCC.
 Link for how to Build for GCC:
 
 - [Using EDK II with Native GCC](../environment-setup/using_edk_ii_with_native_gcc.md)
-- [Unix-like systems](build-tooling/environment-setup/unix_like_systems.md) (For older Linux
+- [Unix-like systems](../environment-setup/unix_like_systems.md) (For older Linux
   distributions, or when using Cygwin or Mac OS X)
 
 ## What does the parsing tool do?
@@ -76,7 +76,7 @@ Linux, Unix, and OS/X systems, these sources are used to build the
 binaries for that OS, or in the case of Python, the Python sources are
 executed directly.
 
-The [BaseTools](build-tooling/build-workflows/base_tools.md)
+The [BaseTools](base_tools.md)
 Source Project is where advanced development is done on the EDK II
 tools. Tool developers work in this separate project until a new feature
 is stable, and only once it is stable is a feature added to the
