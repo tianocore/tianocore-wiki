@@ -86,7 +86,7 @@ into a script that you can launch each time you begin to do development
 in your EDK II workspace.
 
 Multiple Workspaces are also supported see how:
-[Multiple_Workspace](build-tooling/build-workflows/multiple_workspace.md)
+[Multiple_Workspace](../build-workflows/multiple_workspace.md)
 
 ## First Build
 

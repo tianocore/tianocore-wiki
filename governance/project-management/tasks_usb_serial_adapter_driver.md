@@ -12,7 +12,7 @@ Develop a USB driver for a common USB Serial Adapter.
 
 - Completed :heavy_check_mark: (For FTDI).
 - Work done by [https://github.com/ashedesimone](https://github.com/ashedesimone)
-  as a [GSoC2012](GSoC2012)
+  as a [GSoC2012](../../community/events-outreach/gsoc2012.md)
   Student.
 - Available at
   [https://github.com/tianocore/edk2-platforms/tree/master/Drivers/OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe](https://github.com/tianocore/edk2-platforms/tree/master/Drivers/OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe).
@@ -57,7 +57,7 @@ With QEMU you can use the '-usb -usbdevice serial::vc' parameters to add
 an emulated FTDI into the system.
 
 Support for the FTDI device was worked on during
-[GSoC2012](GSoC2012). The
+[GSoC2012](../../community/events-outreach/gsoc2012.md). The
 latest code is currently available at:
 
   [https://github.com/AshleyDeSimone/edk2/tree/ftdi-usb-serial](https://github.com/AshleyDeSimone/edk2/tree/ftdi-usb-serial)

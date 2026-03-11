@@ -1,15 +1,15 @@
 # SecurityPkg
 
 There are 4 security related features in SecurityPkg including
-[TPM](platforms-packages/core-packages/security_pkg.md#TPM),
-[User identification (UID)](platforms-packages/core-packages/security_pkg.md#UID),
-[secure boot](platforms-packages/core-packages/security_pkg.md#Secure_Boot), and
-[authenticated variable](platforms-packages/core-packages/security_pkg.md#Authenticated_Variable).
+[TPM](security_pkg.md#tpm),
+[User identification (UID)](security_pkg.md#uid),
+[secure boot](security_pkg.md#secure-boot), and
+[authenticated variable](security_pkg.md#authenticated-variable).
 
 More information:
 
 - [ReadMe_Security.txt](https://github.com/tianocore-docs/Docs/blob/master/UDK/UDK2010.SR1/Readme_Security.txt)
-- [How to enable Security](development/tutorials-howto/how_to_enable_security.md) with EDK
+- [How to enable Security](../../development/tutorials-howto/how_to_enable_security.md) with EDK
   II
 - PDF on [How to Sign UEFI Drivers & Applications
   V1.31.pdf](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf)
@@ -67,7 +67,7 @@ starting point. This version was created Jan. 31, 2013 and will be
 updated periodically. Please send recommended changes to the
 [edk2-devel mailing list](mailto:edk2-devel@lists.01.org?subject=Boot%20Signing%20Tools%20Question).
 To join the email list goto:
-[edk2-devel](edk2-devel)
+[edk2-devel](../../community/communications/mailing_lists.md)
 (NOTE: Do NOT send any personal information to the edk2-devel list.)
 
 ### Linux tools for signing UEFI images

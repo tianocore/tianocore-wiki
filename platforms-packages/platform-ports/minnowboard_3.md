@@ -4,10 +4,10 @@
 
 ***
 
-## Migration to [devel-IntelAtomProcessorE3900](platforms-packages/platform-ports/intel_atom_processor_e3900.md)
+## Migration to [devel-IntelAtomProcessorE3900](intel_atom_processor_e3900.md)
 
 Note to developers: Release 0.70 updates the codebase to use [UDK2018](../../releases-history/archives/udk2018.md), and
-moves to a new branch of edk2-platforms on github ([devel-IntelAtomProcessorE3900](platforms-packages/platform-ports/intel_atom_processor_e3900.md)). Releases
+moves to a new branch of edk2-platforms on github ([devel-IntelAtomProcessorE3900](intel_atom_processor_e3900.md)). Releases
 prior to 0.69, based on the devel-MinnowBoard3-UDK2017 & devel-MinnowBoard3 branches, are described below for historical
 purposes.
 
@@ -32,7 +32,7 @@ MinnowBoard is an open source hardware enabler, encouraging platform experimenta
 supports [Open Source Hardware Association](http://www.oshwa.org/) principles by making designs publicly available for
 the community so “anyone can study, modify, distribute, make, and sell the design or hardware based on that design.”
 
-MinnowBoard 3 was a follow-on to the [MinnowBoard Max](platforms-packages/platform-ports/minnow_board_max.md) & MinnowBoard Turbot platforms. This design will
+MinnowBoard 3 was a follow-on to the [MinnowBoard Max](minnow_board_max.md) & MinnowBoard Turbot platforms. This design will
 be migrated to [MinnowBoard 3 Module](intel_atom_processor_e3900.md) (release date TBD).
 
 ## Leaf Hill CRB

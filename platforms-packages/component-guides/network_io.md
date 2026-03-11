@@ -5,7 +5,7 @@
 **Introduction to the Network-IO Project**
 
 Please see [NetworkPkg Getting Started
-Guide](NetworkPkg_Getting_Started_Guide) for EDK II updates
+Guide](../core-packages/networkpkg_getting_started_guide.md) for EDK II updates
 
 | ![Network Layer](../../images/networklayer.jpg) |
 | :---: |

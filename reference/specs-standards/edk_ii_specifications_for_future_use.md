@@ -42,7 +42,7 @@ Final revisions v1.22 Errata A
 
 - posted on EDK II Specifications Page
   [
-  Download](EDK_II_Specifications)
+  Download](edk_ii_specifications.md)
 
 </td>
 

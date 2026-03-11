@@ -1,6 +1,6 @@
 # Cryptopkg
 
-[UEFI](UEFI) details interfaces
+[UEFI](../../reference/specs-standards/uefi.md) details interfaces
 between the OS and platform firmware. Several security features were
 introduced (e.g. Authenticated Variable Service, Driver Signing, etc)
 starting in UEFI Specification version 2.2 ([http://www.uefi.org](http://www.uefi.org)). These
@@ -11,8 +11,8 @@ EDK II using CryptoPkg.
 
 [https://github.com/tianocore/edk2/raw/master/CryptoPkg/Library/OpensslLib/OpenSSL-HOWTO.txt](https://github.com/tianocore/edk2/raw/master/CryptoPkg/Library/OpensslLib/OpenSSL-HOWTO.txt)
 
-For [EDK II](EDK_II) branches
-prior to [UDK2017](UDK2017)
+For [EDK II](../../reference/external-resources/edk_ii.md) branches
+prior to [UDK2017](../../releases-history/archives/udk2017.md)
 ... There is a dependency on a specific OpenSSL version for your
 workspace. Please refer to
 

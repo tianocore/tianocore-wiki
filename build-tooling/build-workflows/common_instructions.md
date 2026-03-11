@@ -107,9 +107,9 @@ application:
 ### Build OVMF
 
 Once your build environment is set up you might be interested in
-[building the OVMF platform](How_to_build_OVMF) which
+[building the OVMF platform](../../development/tutorials-howto/how_to_build_ovmf.md) which
 is included in the main
-[EDK II](EDK_II) source tree.
-Since [OVMF](OVMF) builds a
+[EDK II](../../reference/external-resources/edk_ii.md) source tree.
+Since [OVMF](../../platforms-packages/platform-ports/ovmf.md) builds a
 full system firmware image, this may be of interest to UEFI system
 firmware developers.

@@ -1,11 +1,11 @@
 # Start Using UEFI
 
-[UEFI](UEFI) usage and support
+[UEFI](../../reference/specs-standards/uefi.md) usage and support
 is rapidly growing in computing today. Our goal is to enable product
 manufacturers to create products that are shipped both supporting and
 using UEFI to boot the operating system. If you are interested in the
 EDK II implementation of UEFI please see
-[Getting Started](development/tutorials-howto/getting_started.md) with EDK II.
+[Getting Started](getting_started.md) with EDK II.
 
 However, if you are a technology enthusiast, then you may want to try
 out UEFI yourself. You should note that UEFI is focused on improving the
@@ -67,5 +67,5 @@ of UEFI compatibility.
 
 ## Ubuntu
 
-[Ubuntu](UEFI_UBUNTU)
+[Ubuntu](uefi_ubuntu.md)
 provides UEFI bootable CD images for their 64-bit (X64) releases.

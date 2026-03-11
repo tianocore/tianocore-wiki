@@ -7,11 +7,11 @@ control commits.
 To maintain an easily reviewable source control history, it is important
 to put the appropriate amount of effort into partitioning your changes
 properly. This is just as important as the time you spend developing the
-code and writing a good [Commit Message](development/contribution-guides/commit_message_format.md).
+code and writing a good [Commit Message](commit_message_format.md).
 
 Part of your role as a
 [Code
-Reviewer](Code_Reviews) should be to give feedback about proper commit
+Reviewer](code_reviews.md) should be to give feedback about proper commit
 partitioning.
 
 In general, try to:
@@ -53,4 +53,4 @@ with potential *git bisect* issues.
 
 ## See Also
 
-- [Code-Style](development/coding-standards/code_style.md)
+- [Code-Style](../coding-standards/code_style.md)

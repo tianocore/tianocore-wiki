@@ -6,7 +6,7 @@ interface with the EDK II svn repository.
 If you do not have commit access, then you should instead just clone one
 of the git mirrors listed on the
 [Source
-Control](Source_Control) page.
+Control](../contribution-guides/source_control.md) page.
 
 ## git-svn Overview
 
@@ -80,4 +80,4 @@ Commit all of your changes to svn:
 
 ## See also
 
-- [EDK2 git](EDK2_git)
+- [EDK2 git](edk2_git.md)

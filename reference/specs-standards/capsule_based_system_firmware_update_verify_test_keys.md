@@ -1,9 +1,9 @@
 # Capsule Based System Firmware Update Verify Test Keys
 
-Back to [Capsule Based System Firmware Update](development/tutorials-howto/capsule_based_system_firmware_update.md)
+Back to [Capsule Based System Firmware Update](../../development/tutorials-howto/capsule_based_system_firmware_update.md)
 
 The following steps can be used to verify that the capsule-based system firmware update
-feature has been integrated into a platform correctly. This example uses the [Intel® Galileo Gen 2](platforms-packages/platform-ports/galileo.md) platform.
+feature has been integrated into a platform correctly. This example uses the [Intel® Galileo Gen 2](../../platforms-packages/platform-ports/galileo.md) platform.
 These steps use the test signing keys, and it is a good idea to verify this update feature using the test signing keys
 before using product specific signing keys.
 
@@ -88,7 +88,7 @@ Parameter:
 
 * Run `CapsuleApp.efi -P` to view the Firmware Management Protocol details.  The details
 should match the System Firmware Descriptor PEIM .aslc file described
-[here](reference/capsule_based_system_firmware_update_implementation.md#system-firmware-descriptor-peim).
+[here](../capsule_based_system_firmware_update_implementation.md#system-firmware-descriptor-peim).
 In this example, the `ImageTypeId` GUID value is `553B20F9-9154-46CE-8142-80E2AD96CD92`, the
 `Version` value is `0x3` and the `VersionName` string is `"0x00000003"`.
 
@@ -162,7 +162,7 @@ EFI_SYSTEM_RESOURCE_ENTRY (0):
 
 * Update System Firmware Descriptor PEIM .aslc file to a higher version by updating the
 `CURRENT_FIRMWARE_VERSION` and `CURRENT_FIRMWARE_VERSION_STRING` defines.  This file is described
-[here](reference/capsule_based_system_firmware_update_implementation.md#system-firmware-descriptor-peim)
+[here](../capsule_based_system_firmware_update_implementation.md#system-firmware-descriptor-peim)
 * Build firmware image again setting the `-D CAPSULE_ENABLE` flag
 
 `build -a IA32 -t VS2015x86 -p QuarkPlatformPkg/Quark.dsc -D CAPSULE_ENABLE`
@@ -265,4 +265,4 @@ EFI_SYSTEM_RESOURCE_ENTRY (0):
   LastAttemptStatus        - 0x0 (Success)
 ```
 
-Back to [Capsule Based System Firmware Update](development/tutorials-howto/capsule_based_system_firmware_update.md)
+Back to [Capsule Based System Firmware Update](../../development/tutorials-howto/capsule_based_system_firmware_update.md)

@@ -101,7 +101,7 @@ Update BaseTools Python version to 2.7.3
 <th colspan="1" style="background-color:#95b3d7">
 
 Please refer to the folder "Notes" and "Documents" links on the
-[UDK2014](UDK2014) link
+[UDK2014](udk2014.md) link
 These contain detailed change text for each Package in this release and
 all related documentation for this release
 

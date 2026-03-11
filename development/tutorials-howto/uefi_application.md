@@ -37,7 +37,7 @@ changes.
 
 If you are running from the shell then there are 2 ways.
 
-1. The [shell](platforms-packages/component-guides/shell.md) will
+1. The [shell](../../platforms-packages/component-guides/shell.md) will
     search for a script file called “startup.nsh” in any FAT file system
     that would get executed. Inside the script other UEFI applications
     could be invoked.

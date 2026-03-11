@@ -15,7 +15,7 @@ text editor
 
 - Completed :heavy_check_mark:
 - Work done by Suyu Yang for
-  [GSOC2011](GSOC2011).
+  [GSOC2011](../../community/events-outreach/gsoc2011.md).
   - Source: [http://code.google.com/p/edk2-editor](http://code.google.com/p/edk2-editor)
 - Available in main edk2 tree
 
@@ -42,8 +42,8 @@ Testing
 
 - This project can be tested on any PI 1.2 system.
 - [OVMF](http://www.tianocore.org/ovmf/),
-  [Nt32Pkg](archives/platforms-packages/nt32_pkg.md) or
-  [UnixPkg](archives/platforms-packages/unix_pkg.md) could
+  [Nt32Pkg](../../archives/platforms-packages/nt32_pkg.md) or
+  [UnixPkg](../../archives/platforms-packages/unix_pkg.md) could
   each provide friendly test environments.
 
 ## Current State
@@ -227,8 +227,8 @@ search, then the replace text.
 
 ## See Also
 
-- [Tasks](governance/project-management/tasks.md)
+- [Tasks](tasks.md)
 - [GSOC2011#Shell editor
-  improvements](GSOC2011#Shell_editor_improvements)
+  improvements](../../community/events-outreach/gsoc2011.md#shell-editor-improvements)
 - [SimpleTextIn.h](https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/SimpleTextIn.h),
   [SimpleTextInEx.h](https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/SimpleTextInEx.h)

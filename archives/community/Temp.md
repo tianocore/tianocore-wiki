@@ -28,7 +28,7 @@ If you have questions please email the
 - File list:
   [UDK2010.SR1.UP1.P1 File List](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-FilesList-MyWorkSpace.txt/download)
 - Build instructions:
-  [How to Build UDK2010.SR1.UP1.P1](../../build-tooling/build-workflows/udk2010_sr1_up1_how_to_build.md)
+  [How to Build UDK2010.SR1.UP1.P1](../build-tooling/build-workflows/udk2010_sr1_up1_how_to_build.md)
 - Features summary:
   [Release Notes Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Features.txt/download)
 - Supported OS and build environments:

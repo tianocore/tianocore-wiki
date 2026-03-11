@@ -15,4 +15,4 @@ Also uses the UEFI Connection with Intel® System Studio Debugger here:
 
 Info for debugging with gdb is available here:
 [How to debug OVMF with
-QEMU using GDB](How_to_debug_OVMF_with_QEMU_using_GDB)
+QEMU using GDB](../../development/tutorials-howto/how_to_debug_ovmf_with_qemu_using_gdb.md)

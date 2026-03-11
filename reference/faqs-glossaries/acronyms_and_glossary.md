@@ -1,6 +1,6 @@
 # Acronyms And Glossary
 
-[Member-FAQ](Member-FAQ)
+[Member-FAQ](../../community/support-onboarding/member_faq.md)
 
 The EFI and Framework Open Source Community lives within a fairly
 complex world of acronyms, terms, etc. Hopefully this page helps clarify
@@ -466,8 +466,8 @@ a firmware volume
 
 ------------------------------------------------------------------------
 
-[EDK II FAQ](EDK_II_FAQ)
+[EDK II FAQ](edk_ii_faq.md)
 Frequently asked questions about EDK II
 
 [UEFI/PI
-FAQ](UEFI-PI_FAQ) Frequently asked questions about UEFI/PI
+FAQ](uefi_pi_faq.md) Frequently asked questions about UEFI/PI

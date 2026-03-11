@@ -1,8 +1,8 @@
 # GCC Shell
 
 ***Note: this package has been deprecated. Please refer to
-[Shell](platforms-packages/component-guides/shell.md) and
-[ShellPkg](platforms-packages/core-packages/shell_pkg.md) for
+[Shell](../../platforms-packages/component-guides/shell.md) and
+[ShellPkg](../../platforms-packages/core-packages/shell_pkg.md) for
 the latest info.***
 
 ## Welcome to the gcc-shell project
@@ -172,7 +172,7 @@ The UnixPkg should produce an X11 window that is the emulated EFI
 graphics console containing a shell prompt. Do the ctrl-c after you see
 the shell prompt
 
-![](EDK.md)
+![](../../archives/reference/edk.md)
 
 ## Common Errors
 
@@ -225,6 +225,6 @@ only have to change it one time.
       Status value is 0x2
 
 You forgot to build the GccShellPkg. Follow the instructions in
-[Getting Started](development/tutorials-howto/getting_started.md) to build the GccShellPkg.
+[Getting Started](../../development/tutorials-howto/getting_started.md) to build the GccShellPkg.
 You do not need to checkout the GccShellPkg from subversion again if you
 have already done it once.

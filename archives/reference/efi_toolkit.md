@@ -1,6 +1,6 @@
 # EFI Toolkit
 
-The [EDKII-EADK](EDKII-EADK)
+The [EDKII-EADK](../../platforms-packages/core-packages/edkii_eadk.md)
 is replacing the EFI Toolkit. It is recommended that you use this EDK II
 Project instead of the EFI Toolkit since it is no longer supported.**
 
@@ -14,7 +14,7 @@ environment on 32 and 64 bit based platforms. The components are
 released as reference source code. Some components are meant to be stand
 alone and run on UEFI/EFI compliant systems and some components will
 require running on the EFI shell. The EFI Toolkit is released under the
-[BSD License](../../reference/legal-licenses/BSD-License.md), and the Python code is released
+[BSD License](../../reference/legal-licenses/bsd_license.md), and the Python code is released
 under [PSF
 License](http://www.python.org/download/releases/2.4.4/license/).
 

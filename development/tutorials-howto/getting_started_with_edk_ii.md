@@ -74,7 +74,7 @@ GitHub
 ## EDK II Development Process
 
 After setting up your build environment see
-[EDK II Development Process](../../development/contribution-guides/edk_ii_development_process.md) for
+[EDK II Development Process](../contribution-guides/edk_ii_development_process.md) for
 making contributions to the EDK II Project.
 
 ## Further Help

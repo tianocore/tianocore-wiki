@@ -149,7 +149,7 @@ User Identification (UID) Errata from UEFI 2.3.1 Specification
 Updates to the EDK II Build Process.
 
 - Support MACRO definitions in build tools.
-- Updates for [EDK II v1.22 specifications](EDK_II_Specifications)
+- Updates for [EDK II v1.22 specifications](../../reference/specs-standards/edk_ii_specifications.md)
   (Build, DEC, DSC, FDF, INF)
 
 </th>

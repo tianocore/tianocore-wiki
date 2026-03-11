@@ -1,8 +1,8 @@
 # ShellPkg Main Libraries
 
-There are 3 main [libraries](EDK2_Libraries) used by almost all shell commands and 2
+There are 3 main [libraries](../../reference/external-resources/edk2_libraries.md) used by almost all shell commands and 2
 of these are very usable by shell applications in the
-[ShellPkg](platforms-packages/core-packages/shell_pkg.md).
+[ShellPkg](../core-packages/shell_pkg.md).
 
 ## ShellLib
 

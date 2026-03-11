@@ -1,6 +1,6 @@
 # EDK II Source Level Debug
 
-See how to add [SourceLevelDebugPkg](platforms-packages/core-packages/source_level_debug_pkg.md) to a EDK II
+See how to add [SourceLevelDebugPkg](../../platforms-packages/core-packages/source_level_debug_pkg.md) to a EDK II
 platform.
 
 Enabling debugging with [OVMF](../../platforms-packages/platform-ports/ovmf.md) is a good way to evaluate Source Level

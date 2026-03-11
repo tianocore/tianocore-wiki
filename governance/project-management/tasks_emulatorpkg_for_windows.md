@@ -1,7 +1,7 @@
 # Tasks Emulatorpkg For Windows
 
 Create a Windows based host environment for
-[EmulatorPkg](platforms-packages/platform-ports/emulator_pkg.md).
+[EmulatorPkg](../../platforms-packages/platform-ports/emulator_pkg.md).
 
 - Status: Complete :heavy_check_mark:
 - Difficulty: Medium
@@ -17,10 +17,10 @@ in 2018.
 ## Details
 
 EmulatorPkg is very similar in many respects to the
-[Nt32Pkg](archives/platforms-packages/nt32_pkg.md), but it
+[Nt32Pkg](../../archives/platforms-packages/nt32_pkg.md), but it
 should be generic enough to replace both
-[Nt32Pkg](archives/platforms-packages/nt32_pkg.md) and
-[UnixPkg](archives/platforms-packages/unix_pkg.md).
+[Nt32Pkg](../../archives/platforms-packages/nt32_pkg.md) and
+[UnixPkg](../../archives/platforms-packages/unix_pkg.md).
 
 This task would be to enable a Windows host environment for EmulatorPkg
 so we can consider deprecating Nt32Pkg and UnixPkg in favor of using
@@ -54,6 +54,6 @@ Please discuss the project on [https://edk2.groups.io/g/devel](https://edk2.grou
 
 ## See Also
 
-- [Tasks](governance/project-management/tasks.md)
+- [Tasks](tasks.md)
 - [GSoC2012#Port EmulatorPkg
-  to Windows](GSoC2012#Port_EmulatorPkg_to_Windows)
+  to Windows](../../community/events-outreach/gsoc2012.md#port-emulatorpkg-to-windows)

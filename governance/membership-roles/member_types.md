@@ -3,10 +3,10 @@
 There are several ways to participate in our community. Anyone can join
 our
 [Mailing
-Lists](Mailing_Lists) to discuss UEFI related topics.
+Lists](../../community/communications/mailing_lists.md) to discuss UEFI related topics.
 
 If you are a developer, and would like to contribute a code change,
-please refer to the [Code Contributions](development/contribution-guides/code_contributions.md) page.
+please refer to the [Code Contributions](../../development/contribution-guides/code_contributions.md) page.
 
 Our community also has various package maintainers that:
 
@@ -16,5 +16,5 @@ Our community also has various package maintainers that:
 - Is tasked with maintaining the package source code
 - Reviews the code submitted from the project development mail list, for
   example
-  [edk2-devel](edk2-devel)
+  [edk2-devel](../../community/communications/mailing_lists.md)
   email list for their package

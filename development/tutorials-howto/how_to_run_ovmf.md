@@ -11,7 +11,7 @@ To install on Debian/Ubuntu: `sudo apt-get install qemu`
 
 ### Get a build of OVMF.fd
 
-You can [build OVMF](How-to-build-OVMF "wikilink") based on the latest version of [EDK
+You can [build OVMF](how_to_build_ovmf.md) based on the latest version of [EDK
 II](../../reference/external-resources/edk_ii.md).
 
 Pre-built images are available at [https://www.kraxel.org/repos/](https://www.kraxel.org/repos/)

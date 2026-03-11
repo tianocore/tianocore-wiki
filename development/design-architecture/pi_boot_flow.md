@@ -3,7 +3,7 @@
 [&lt;img](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.JPG)src="<https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases-tn.jpg>&gt;
 
 **Security (SEC) Phase**
-The Security ([SEC](SEC)) phase
+The Security ([SEC](../../reference/faqs-glossaries/acronyms_and_glossary.md)) phase
 is the first phase in the PI Architecture architecture and is
 responsible for the following:
 \* Handling all platform restart events
@@ -22,7 +22,7 @@ Interface](http://uefi.org/specsandtesttools)
 
 **Pre-EFI Initialization (PEI) Phase**
 The Pre-EFI Initialization
-([PEI](PEI)) phase of the PI
+([PEI](../../reference/faqs-glossaries/pei.md)) phase of the PI
 Architecture specifications (hereafter referred to as the “PI
 Architecture”) is invoked quite early in the boot flow. Specifically,
 after some preliminary processing in the Security (SEC) phase, any
@@ -101,7 +101,7 @@ Interface](http://www.uefi.org/specsandtesttools)
 The Boot Manager in DXE executes after all the DXE drivers whose
 dependencies have been satisfied have been dispatched by the DXE
 Dispatcher. At that time, control is handed to the Boot Device Selection
-([BDS](../../platforms-packages/core-packages/ArmPlatformPkg-Bds.md)) phase of execution.
+([BDS](../../platforms-packages/core-packages/armplatformpkg_bds.md)) phase of execution.
 The BDS phase is responsible for implementing the platform boot policy.
 System firmware that is compliant with this specification must implement
 the boot policy specified in the Boot Manager chapter of the UEFI 2.0
@@ -134,12 +134,12 @@ Execution Environment Core
 Interface](http://www.uefi.org/specsandtesttools)
 
 **Transient System Load (TSL) Phase**
-[TSL](TSL) is the 1st stage of
+[TSL](../../reference/faqs-glossaries/acronyms_and_glossary.md) is the 1st stage of
 the boot process where the OS loader is an EFI application.
 
 **Run Time (RT) Phase**
 UEFI has a limited set of Runtime
-([RT](RT)) Services that are
+([RT](../../reference/faqs-glossaries/acronyms_and_glossary.md)) Services that are
 available after the Operating System boots and takes over the system.
 The primary runtime services enable the OS to read and write environment
 variables. There are also services that abstract the Real Time Clock,
@@ -165,4 +165,4 @@ behavior in this phase.
 ## Glossary
 
 See [
-Acronyms](Acronyms-and-Glossary) for glossary and acronym information.
+Acronyms](../../reference/faqs-glossaries/acronyms_and_glossary.md) for glossary and acronym information.

@@ -4,7 +4,7 @@
 
 To find the latest instructions to build the BeagleBoard on Linux go to
 [this
-wikipage](BeagleBoardPkg)
+wikipage](beagle_board_pkg.md)
 
 ## Get the edk2 source tree and build BeagleBoardPkg in Windows® Cygwin Bash shell
 
@@ -221,7 +221,7 @@ also a way to recover the image if the NAND ever gets into a bad state.
 ## Put edk2 code in the Beagle Board DRAM using U-Boot
 
 See [Booting
-EDK2 in the Beagle Board DRAM using U-Boot](BeagleBoardPkg#Booting_EDK2_in_the_Beagle_Board_DRAM_using_U-Boot)
+EDK2 in the Beagle Board DRAM using U-Boot](beagle_board_pkg.md#booting-edk2-in-the-beagle-board-dram-using-u-boot)
 
 ## Put edk2 code in the Beagle Board NAND using EBL
 
@@ -244,7 +244,7 @@ Use the EFI EBL to flash the image
 The Beagle Board does not implement PEI. SEC loads the DXE core
 directly. See the
 [PI Boot
-Flow](PI_Boot_Flow) for an overview of PI booting.
+Flow](../../development/design-architecture/pi_boot_flow.md) for an overview of PI booting.
 
 **NAND FLASH Layout**
 The OMAP3530 used on the Beagle Board contains a mask ROM that initiates
@@ -960,4 +960,4 @@ The following is the first section of the PCD.log file:
 
 The UEFI PI specification utilizes some EFI concepts to define how to
 build modular chunks of code in various phases of the firmwares boot
-flow. Please see the [UEFI and PI Wiki](UEFI_and_PI_Wiki) for more information.
+flow. Please see the [UEFI and PI Wiki](../../reference/external-resources/uefi_and_pi_wiki.md) for more information.

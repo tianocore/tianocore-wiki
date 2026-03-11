@@ -4,7 +4,7 @@
 EDK II and compiling projects under various OS/compiler environments.
 
 For an explanation of the basic EDK II setup, and to see examples of how to use the specification files .DEC, .DSC, and
-.INF, see the wiki page [Build Description Files](build-tooling/build-workflows/build_description_files.md).
+.INF, see the wiki page [Build Description Files](../../build-tooling/build-workflows/build_description_files.md).
 
 See below for more information on the following topics:
 
@@ -50,7 +50,7 @@ This sample specification can be copied to start a new Tianocore Specification d
 
 ## Training
 
-[UEFI and EDK II Learning and Development](../../community/support-onboarding/uefi_edkii_learning_dev.md) - These online courses provide background information on the [UEFI](https://uefi.org) specification and EDK II. This self-paced training is recommended for anyone new to UEFI.
+[UEFI and EDK II Learning and Development](../../development/tutorials-howto/uefi_edkii_learning_dev.md) - These online courses provide background information on the [UEFI](https://uefi.org) specification and EDK II. This self-paced training is recommended for anyone new to UEFI.
 
 [TianoCore Developer Training](https://github.com/tianocore-training/Tianocore_Training_Contents/wiki) - This page contains self-paced training for EDK II, organized into four basic groups:
 
@@ -59,7 +59,7 @@ This sample specification can be copied to start a new Tianocore Specification d
 3. Platform Porting and Debug
 4. Advanced Topics (Network, Security, Capsule Update, HII, ...)
 
-Hands-on labs are available on Microsoft Windows and Linux for multiple platforms: [OVMF](../../platforms-packages/platform-ports/ovmf.md), [MinnowBoard Max/Turbot](platforms-packages/platform-ports/minnow_board_max.md), [Aaeon UpSquared](platforms-packages/platform-ports/intel_atom_processor_e3900.md).
+Hands-on labs are available on Microsoft Windows and Linux for multiple platforms: [OVMF](../../platforms-packages/platform-ports/ovmf.md), [MinnowBoard Max/Turbot](../../platforms-packages/platform-ports/minnow_board_max.md), [Aaeon UpSquared](../../platforms-packages/platform-ports/intel_atom_processor_e3900.md).
 
 Training materials can be viewed directly in a web browser using [gitpitch](https://gitpitch.com/docs/). Supplemental lab materials are available for download.
 
@@ -68,8 +68,8 @@ Training materials can be viewed directly in a web browser using [gitpitch](http
 | Document / Link | Description |
 |-----------------|-------------|
 | [UEFI Packaging Tool Quick Start Guide](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/UEFI-PackagingToolQuickStartGuideRev_1_2.pdf) | UEFI Packaging Tool (UEFIPT) Quick Start 1.2. This document provides a definitive list of steps to follow which will result in the creation of a UEFI Distribution Package using the UEFI Packaging Tool (UEFIPT) within a Microsoft Windows* OS and Linux OS environments. August 2015. |
-| [Signing UEFI Images](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf) | This document describes how to sign UEFI images for the development and test of UEFI Secure Boot using the UDK2010.SR1 release: Provides an overview of UEFI Secure Boot; Details the steps to sign an UEFI image; Describes the UEFI Secure Boot policies; Describes the steps required to set specific UEFI Secure Boot policies; Describes the image authorization flow when UEFI Secure Boot is enabled; Decribes how to use OVMF and NT32Pkg as UEFI Secure Boot reference platforms; Demonstrates several UEFI Secure Boot scenarios using OVMF Updates and clarifications related to UEFI Spec conformance regarding KEK and DB usages. See also [SecurityPkg](platforms-packages/core-packages/security_pkg.md) for more information on How to enable security, TPM, User identification (UID), secure boot and authenticated variable. NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK2010.SR1 release version. Feb 2013 |
-| [UEFI Driver Writers' Guide: HTML](https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/), [PDF](https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.pdf), [MOBI](https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.mobi), [EPUB](https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.epub) | The [UEFI Driver Writer's Guide](../../development/tutorials-howto/uefi_driver_writer's_guide.md) is designed to aid in the development of UEFI Drivers using the EDK II open source project as a development environment. Please refer to the [Driver Developer](../../development/tutorials-howto/driver_developer.md) page for more information. |
+| [Signing UEFI Images](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf) | This document describes how to sign UEFI images for the development and test of UEFI Secure Boot using the UDK2010.SR1 release: Provides an overview of UEFI Secure Boot; Details the steps to sign an UEFI image; Describes the UEFI Secure Boot policies; Describes the steps required to set specific UEFI Secure Boot policies; Describes the image authorization flow when UEFI Secure Boot is enabled; Decribes how to use OVMF and NT32Pkg as UEFI Secure Boot reference platforms; Demonstrates several UEFI Secure Boot scenarios using OVMF Updates and clarifications related to UEFI Spec conformance regarding KEK and DB usages. See also [SecurityPkg](../../platforms-packages/core-packages/security_pkg.md) for more information on How to enable security, TPM, User identification (UID), secure boot and authenticated variable. NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK2010.SR1 release version. Feb 2013 |
+| [UEFI Driver Writers' Guide: HTML](https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/), [PDF](https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.pdf), [MOBI](https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.mobi), [EPUB](https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.epub) | The [UEFI Driver Writer's Guide](../../development/tutorials-howto/uefi_driver_writers_guide.md) is designed to aid in the development of UEFI Drivers using the EDK II open source project as a development environment. Please refer to the [Driver Developer](../../development/tutorials-howto/driver_developer.md) page for more information. |
 | [EDK II User Manual](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDK_II_UserManual_0_7.pdf) | This document provides detailed instructions for downloading, configuring, and building an EDK II project as well as running EDKII Emulation Environments. March 2010. |
 | [EDK II Module Writers Guide](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDK_II%20Module%20Writer_s%20Guide_0_7.pdf) | This document is a guideline for new EDK II module developers, and provides detailed instructions on how to develop and build a new module, and how to release with a package. March 2010. |
 | [Performance Optimization](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/PerformanceOptimization_1_0.pdf) | Technical documentation for Performance Optimization for EDK II. Feb 2010. |

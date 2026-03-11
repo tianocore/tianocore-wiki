@@ -346,8 +346,7 @@ r11566
 This release is the implmentation sources for the UEFI Shell
 Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
 specification
-See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/Shell
-FAQ.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
+See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/shell_faq.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
 
 </td>
 
@@ -442,7 +441,7 @@ UDK2010.SR1.UP1 Release
   Linux](../../build-tooling/environment-setup/using_edk_ii_with_native_gcc.md)
 - [Windows systems](../../build-tooling/environment-setup/windows_systems.md)
 - [Xcode Mac OS
-  X](Xcode)
+  X](../../build-tooling/environment-setup/xcode.md)
 - [Unix-like systems](../../build-tooling/environment-setup/unix_like_systems.md) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 

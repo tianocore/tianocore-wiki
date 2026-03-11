@@ -104,4 +104,4 @@ The generated firmware image is the `MNW2MAX_X64_D_0084_01_GCC.bin` file in
 
 The CapsuleApp and generated UEFI Capsules are in `Build\Vlv2TbltDevicePkg\Capsules`
 
-Now you are ready to [flash the image, generate a capsule, and test it!](community/events-outreach/hackathon_flash_image_and_generate_capsule.md)
+Now you are ready to [flash the image, generate a capsule, and test it!](hackathon_flash_image_and_generate_capsule.md)

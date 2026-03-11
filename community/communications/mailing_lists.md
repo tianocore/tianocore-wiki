@@ -20,7 +20,7 @@ lists. Some of these lists will be deactivated in the comming months.
 |  | Developer Discussions | Source Code Changes | Issue Tracking |
 |----|----|----|----|
 | [EDK II](http://www.tianocore.org/edk2/) / [UDK](http://www.tianocore.org/udk2014/) | [edk2-devel](https://lists.01.org/mailman/listinfo/edk2-devel) | [edk2-commits](https://lists.sourceforge.net/lists/listinfo/edk2-commits) | [edk2-bugs](https://lists.01.org/mailman/listinfo/edk2-bugs) |
-| [EDK](EDK) | [efidevkit-devel](https://lists.sourceforge.net/lists/listinfo/efidevkit-devel) | [efidevkit-commits](https://lists.sourceforge.net/lists/listinfo/efidevkit-commits) |  |
+| [EDK](../../reference/external-resources/edk2.md) | [efidevkit-devel](https://lists.sourceforge.net/lists/listinfo/efidevkit-devel) | [efidevkit-commits](https://lists.sourceforge.net/lists/listinfo/efidevkit-commits) |  |
 
 Some smaller projects do not have separate emails lists. In this case,
 feel free to discuss these projects on either the EDK or EDK II

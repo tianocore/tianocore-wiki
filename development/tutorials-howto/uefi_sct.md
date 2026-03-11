@@ -1,15 +1,15 @@
 # UEFI SCT
 
-[UEFI](UEFI) \|
-[PI](PI) \|
+[UEFI](../../reference/specs-standards/uefi.md) \|
+[PI](../../reference/specs-standards/pi.md) \|
 [Testing
-EDK II](Testing_EDK_II)
+EDK II](../../reference/external-resources/edk_ii.md)
 
 ## UEFI Self-Certification Tests (SCT)
 
 ## UEFI SCT
 
-The [UEFI](UEFI)
+The [UEFI](../../reference/specs-standards/uefi.md)
 Self-Certification Test (UEFI SCT) is a toolset for platform developers
 to validate firmware implementation compliance to the UEFI
 Specification. The toolset features a Test Harness for executing
@@ -31,15 +31,15 @@ validation.
 
 ## UEFI PI SCT
 
-The [PI](UEFI_PI) SCT is used to
+The [PI](../../reference/specs-standards/pi.md) SCT is used to
 perform self-certification testing on the PEI code.
 
 The latest Version of the PI SCT can be downloaded from: [PI1.2 SCT.2
 Release.zip](https://sourceforge.net/projects/pi-sct/files/PI1.2_Sct_.2_Release_Mar_05_2013/PI1.2-SCT.2Release-Mar052013.zip/download)
 
-PI 1.2 introduces [SMM](SMM) not
+PI 1.2 introduces [SMM](../../reference/faqs-glossaries/acronyms_and_glossary.md) not
 supported by EDK. PI SCT test cases for PI 1.2 must be built using
-[EDK II](EDK_II). SCT
+[EDK II](../../reference/external-resources/edk_ii.md). SCT
 packages for PI 1.2+ must use EDK II coding style, as EDK will not be
 supported from this point forward.
 

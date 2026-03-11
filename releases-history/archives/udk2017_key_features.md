@@ -16,7 +16,7 @@ Protocol)
   * [CLANG/LLVM](http://clang.llvm.org/)
   * [NASM](../../build-tooling/environment-setup/nasm_setup.md)
 * [OpenSSL 1.1.0e](https://www.openssl.org/)
-* [UEFI HTTP/HTTPS Boot](../../development/design-architecture/https_boot.md) with TLS
+* [UEFI HTTP/HTTPS Boot](../../platforms-packages/component-guides/https_boot.md) with TLS
 * Adapter Information Protocol
 * Regular Expression Protocol
 * [Signed Capsule

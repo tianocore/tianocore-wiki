@@ -121,7 +121,7 @@ archive and download the FAT32 source code.
 Other Common Links and Downloads
 
 `* Request for a FAT-Driver Project Role (initial or promotion)`
-`* Link to the EDK Project Homepage`[EDK](archives/reference/efidevkit.md)
+`* Link to the EDK Project Homepage`[EDK](../reference/efidevkit.md)
 `* Link to Microsoft's FAT32 System Driver Specification`[Link](http://msdn.microsoft.com/en-us/windows/hardware/gg463080)
 `* Link to Microsoft's license agreement`[Link](http://msdn.microsoft.com/en-us/windows/hardware/gg463080.aspx)
 

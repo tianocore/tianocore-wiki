@@ -3,7 +3,7 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: [Build Instructions](build-tooling/build-workflows/build_instructions.md)
+New instructions: [Build Instructions](../build-workflows/build_instructions.md)
 
 This page provides *step-by-step instructions* for setting up a [EDK
 II](http://www.tianocore.org/edk2/) build environment on various
@@ -122,7 +122,7 @@ This allows you to substitute ~/src/edk2 for an alternate path such as
 
  Continue with common instructions for Unix
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions_for_unix.md) are common for
+The [remaining instructions](../build-workflows/common_instructions_for_unix.md) are common for
 most UNIX-like systems.
 
 ## Fedora 11
@@ -162,7 +162,7 @@ become the root user, for the 'make install' command.
 
  Continue with common instructions for Unix
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions_for_unix.md) are common for
+The [remaining instructions](../build-workflows/common_instructions_for_unix.md) are common for
 most UNIX-like systems.
 
 ## Mac OS X 10.5
@@ -232,7 +232,7 @@ command at the shell prompt.
 
  Continue with common instructions for Unix
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions_for_unix.md) are common for
+The [remaining instructions](../build-workflows/common_instructions_for_unix.md) are common for
 most UNIX-like systems.
 
 ## Ubuntu 9.10
@@ -257,5 +257,5 @@ to run this command.
 
 ## Continue with common instructions for Unix
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions_for_unix.md) are common for
+The [remaining instructions](../build-workflows/common_instructions_for_unix.md) are common for
 most UNIX-like systems.

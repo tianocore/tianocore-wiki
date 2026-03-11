@@ -1,6 +1,6 @@
 # Change System Firmware Update Version
 
-Back to [Capsule Based System Firmware Update](development/tutorials-howto/capsule_based_system_firmware_update.md)
+Back to [Capsule Based System Firmware Update](../../development/tutorials-howto/capsule_based_system_firmware_update.md)
 
 One of the more common tasks is to update the system firmware version so the next time
 a system firmware update capsule is built with new features or bug fixes, it has a new
@@ -82,4 +82,4 @@ FMP (0) ImageInfo:
 FMP (0) PackageInfo - Unsupported
 ```
 
-Back to [Capsule Based System Firmware Update](development/tutorials-howto/capsule_based_system_firmware_update.md)
+Back to [Capsule Based System Firmware Update](../../development/tutorials-howto/capsule_based_system_firmware_update.md)

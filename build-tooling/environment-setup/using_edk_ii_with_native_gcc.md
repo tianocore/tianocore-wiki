@@ -3,7 +3,7 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: [Build Instructions](build-tooling/build-workflows/build_instructions.md)
+New instructions: [Build Instructions](../build-workflows/build_instructions.md)
 
 This page provides *step-by-step instructions* for setting up a [EDK
 II](http://www.tianocore.org/edk2/) build environment on Linux using a
@@ -110,7 +110,7 @@ tools use 'python'
 
 ### Continue with common instructions
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions.md) are common for
+The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
 
 ### Ubuntu 16.04 LTS / Ubuntu 16.10
@@ -148,7 +148,7 @@ python3-distutils - distutils module from the Python standard library
 
 ### Continue with common instructions
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions.md) are common for
+The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
 
 ## Instructions for older Linux Environments
@@ -190,7 +190,7 @@ To install the required packages, you must be root. Therefore we use
 
  Continue with common instructions
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions.md) are common for
+The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
 
 ### Fedora 13
@@ -219,7 +219,7 @@ To install the required packages, you must be root. Therefore we use
 
  Continue with common instructions
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions.md) are common for
+The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
 
 ### Mandriva 2010
@@ -247,7 +247,7 @@ To install the required packages, you must be root. Therefore we use
 
  Continue with common instructions
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions.md) are common for
+The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
 
 ### openSUSE 12.1
@@ -272,7 +272,7 @@ to run this command.
 
  Continue with common instructions
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions.md) are common for
+The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
 
 ### Ubuntu 10.10
@@ -302,7 +302,7 @@ to run this command.
 
 ### Continue with common instructions
 
-The [remaining instructions](build-tooling/build-workflows/common_instructions.md) are common for
+The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
 
 ## See Also

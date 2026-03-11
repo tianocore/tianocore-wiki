@@ -1,7 +1,7 @@
 # NetworkPkg
 
 NetworkPkg provides IPv6 network stack drivers, IPsec driver,
-[PXE](PXE) driver, iSCSI driver
+[PXE](../component-guides/pxe.md) driver, iSCSI driver
 and necessary shell applications for network configuration
 
 More information: [NetworkPkg Getting Started

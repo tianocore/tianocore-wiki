@@ -9,20 +9,20 @@ UEFI](../../reference/specs-standards/uefi.md)
 ## Ubuntu Versions Supporting UEFI
 
 Ubuntu Linux supports x64
-[UEFI](UEFI) for 64-bit builds,
+[UEFI](../../reference/specs-standards/uefi.md) for 64-bit builds,
 starting with 10.10. We recommend using Ubuntu 12.04 LTS or higher with
 x64 UEFI.
 
 No IA32 UEFI support is available in Ubuntu, but is supported in
 [UEFI
-Debian](Debian_Linux) starting with the Jessie release.
+Debian](uefi_ubuntu.md) starting with the Jessie release.
 
 ## Support for UEFI Secure Boot
 
 Ubuntu 12.04 LTS or higher supports
 [Secure
 Boot](../../reference/specs-standards/uefi.md), with an OS shim loader signed by the
-[UEFI CA](UEFI_CA). This
+[UEFI CA](../../reference/specs-standards/uefi.md). This
 means that a system properly configured for UEFI Secure Boot can load
 Ubuntu Linux without enabling legacy BIOS support, or disabling Secure
 Boot in the firmware setup menus.

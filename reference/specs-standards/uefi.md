@@ -7,4 +7,4 @@ UEFI related specifications also cover various other aspects of firmware below t
 specifications can be found at [http://www.uefi.org](http://www.uefi.org). Our community supports these UEFI
 specifications.
 
-[Start Using UEFI](start_using_uefi.md)
+[Start Using UEFI](../../development/tutorials-howto/start_using_uefi.md)

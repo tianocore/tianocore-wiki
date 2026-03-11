@@ -1,6 +1,6 @@
 # Change Esrt System Firmware Update Guid
 
-Back to [Capsule Based System Firmware Update](development/tutorials-howto/capsule_based_system_firmware_update.md)
+Back to [Capsule Based System Firmware Update](../../development/tutorials-howto/capsule_based_system_firmware_update.md)
 
 * Run `CapsuleApp.efi -E` to see current ESRT GUID in the `FwType` field.
 * Generate a new GUID value.
@@ -35,4 +35,4 @@ value used for `IMAGE_TYPE_ID_GUID` in the `SystemFirmwareDescriptor.aslc` file.
 * Build capsule image.
 * `CapsuleApp.efi <CapsuleImage>` for newly generated capsules works.
 
-Back to [Capsule Based System Firmware Update](development/tutorials-howto/capsule_based_system_firmware_update.md)
+Back to [Capsule Based System Firmware Update](../../development/tutorials-howto/capsule_based_system_firmware_update.md)

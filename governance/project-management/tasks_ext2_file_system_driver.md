@@ -17,13 +17,13 @@ filesystem driver. (read-only support would be useful as a first step)
   more useful [https://en.wikipedia.org/wiki/Ext4](https://en.wikipedia.org/wiki/Ext4)
   driver was implemented instead!
 - Work done by Pedro Falcato ([https://github.com/heatd](https://github.com/heatd))
-  as a [GSoC2021](GSoC2021)
+  as a [GSoC2021](../../community/events-outreach/gsoc2021.md)
   Student.
 
 ## Older Work
 
 - Before GSoC 2021, some progress was made during
-  [GSOC2011](GSOC2011) by
+  [GSOC2011](../../community/events-outreach/gsoc2011.md) by
   Alin Rus
   - Source: [https://github.com/GunioRobot/Ext2Pkg](https://github.com/GunioRobot/Ext2Pkg)
 - A newer effort has been started based on GRUB filesystem drivers,
@@ -45,7 +45,7 @@ by examining the disk contents.
 
 It may be possible to leverage BSD compatible code from a reputable open
 source project, but using 3rd-party code does add some extra complexity
-(see [Code Contributions](development/contribution-guides/code_contributions.md)).
+(see [Code Contributions](../../development/contribution-guides/code_contributions.md)).
 
 ## Development environment
 
@@ -65,6 +65,6 @@ project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
 ## See Also
 
-- [Tasks](governance/project-management/tasks.md)
+- [Tasks](tasks.md)
 - [GSOC2011#Read-only ext2
   driver](../../community/events-outreach/GSOC2011.md)

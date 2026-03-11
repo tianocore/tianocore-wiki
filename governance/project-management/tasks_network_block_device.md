@@ -14,8 +14,8 @@ Add [Network Block Device](http://nbd.sourceforge.net/) support
 Client
 
 - [OVMF](http://www.tianocore.org/ovmf/),
-  [EmulatorPkg](platforms-packages/platform-ports/emulator_pkg.md), or
-  [NT32](NT32).
+  [EmulatorPkg](../../platforms-packages/platform-ports/emulator_pkg.md), or
+  [NT32](../../archives/platforms-packages/nt32_pkg.md).
 
 Server
 

@@ -2,8 +2,8 @@
 
 The following tools are required for building
 [
-EDK II BaseTools](edk2-buildtools) and instructions are provided in the
-[BuildTool Setup Guide](BuildTool_Setup_Guide).
+EDK II BaseTools](../../build-tooling/build-workflows/edk2_buildtools.md) and instructions are provided in the
+[BuildTool Setup Guide](../../build-tooling/environment-setup/buildtool_setup_guide.md).
 
 ## Resources
 

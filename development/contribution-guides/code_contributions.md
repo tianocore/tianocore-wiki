@@ -6,12 +6,12 @@ information.
 
 See also
 
-[Commit Message Format](development/contribution-guides/commit_message_format.md)
+[Commit Message Format](commit_message_format.md)
 
-[Code Style](development/coding-standards/code_style.md)
+[Code Style](../coding-standards/code_style.md)
 
-[EDK II Code First Process](EDK_II_Code_First_Process)
+[EDK II Code First Process](edk_ii_code_first_process.md)
 
-[EDK II Development Process](EDK_II_Development_Process)
+[EDK II Development Process](edk_ii_development_process.md)
 
-[Inclusive Language Guidelines](governance/charter-policies/inclusive_language_guidelines.md)
+[Inclusive Language Guidelines](../../governance/charter-policies/inclusive_language_guidelines.md)

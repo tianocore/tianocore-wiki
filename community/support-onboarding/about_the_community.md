@@ -7,15 +7,15 @@ make their application and its accompanying documentation and tooling.
 As a community member, you have access to the following:
 
 - [Mailing
-  Lists](Mailing_Lists) - Using groups.io. Primary source of communications.
-- Issue Tracking - [Reporting Issues](community/support-onboarding/reporting_issues.md) via GitHub Issues. This
+  Lists](../communications/mailing_lists.md) - Using groups.io. Primary source of communications.
+- Issue Tracking - [Reporting Issues](reporting_issues.md) via GitHub Issues. This
   tracks feature requests, tasks and issues with the respective project.
 - Source Control - All Projects use github to keep track of different
   versions of software source code and to manage
 
 `code contributions via pull requests.`
 
-- [Community Virtual Meetings](governance/meetings-minutes/community_virtual_meetings.md) -
+- [Community Virtual Meetings](../../governance/meetings-minutes/community_virtual_meetings.md) -
   video conference for community meetings, bug triage, and design
   reviews.
 

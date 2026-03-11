@@ -1,7 +1,7 @@
 # EDK Apps
 
 **Note that EDK has been deprecated in favor of
-[EDK II](EDK_II). This
+[EDK II](../../reference/external-resources/edk_ii.md). This
 information is provided for historical purposes**
 
 ## Welcome to the EDK Sample Applications Project

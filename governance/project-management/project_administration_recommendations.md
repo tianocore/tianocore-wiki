@@ -31,6 +31,6 @@ for some projects:
   - If your project is small, you may consider using the larger EDK or
     EDK II dev lists for discussions. (See
     [Mailing
-    Lists](Mailing_Lists) page)
+    Lists](../../community/communications/mailing_lists.md) page)
 - Forums
 - Project News

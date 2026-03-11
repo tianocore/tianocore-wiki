@@ -32,7 +32,7 @@ official MinnowBoard firmware release does not have the latest implementation.
 ## Build Instructions
 
 For this Hack-a-thon, there will be some additional build steps that are required. We have divided this up into a set of
-instructions for [building on Windows](community/events-outreach/hackathon_build_windows.md) as well as [building on Linux](community/events-outreach/hackathon_build_linux.md).
+instructions for [building on Windows](hackathon_build_windows.md) as well as [building on Linux](hackathon_build_linux.md).
 
 ## Participant Registration
 

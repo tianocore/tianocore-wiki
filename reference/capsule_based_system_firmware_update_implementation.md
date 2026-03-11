@@ -58,7 +58,7 @@ platform.  This GUID value must be one of the GUID values the platform supports 
 System Firmware Updates.  The PCD called `gEfiMdeModulePkgTokenSpaceGuid.PcdSystemFmpCapsuleImageTypeIdGuid`
 is set to an array of one or more of `IMAGE_TYPE_ID_GUID` values (using byte array syntax) in the
 Platform DSC file described in the
-[Platform DSC PCDs section](../specs-standards/capsule_based_system_firmware_update_dsc_fdf.md#platform-dsc-pcds-sections).
+[Platform DSC PCDs section](specs-standards/capsule_based_system_firmware_update_dsc_fdf.md#platform-dsc-pcds-sections).
 
 The following `#defines` from `SystemFirmwareDescriptor.aslc` need to be updated for your platform:
 

@@ -115,18 +115,18 @@ click Submit.
 
 UDK2010 documents (.chm and html)
 
-- [CryptoPkg](platforms-packages/core-packages/crypto_pkg.md)
+- [CryptoPkg](../../platforms-packages/core-packages/crypto_pkg.md)
   0.92
-- [EdkCompatibilityPkg](archives/platforms-packages/edk_compatibility_pkg.md) 0.92
-- [IntelFrameworkModulePkg](archives/platforms-packages/intel_framework_module_pkg.md) 0.92
-- [IntelFrameworkPkg](archives/platforms-packages/intel_framework_pkg.md) 0.92
-- [MdeModulePkg](platforms-packages/core-packages/mde_module_pkg.md) 0.92
-- [MdePkg](platforms-packages/core-packages/mde_pkg.md) with
+- [EdkCompatibilityPkg](../../archives/platforms-packages/edk_compatibility_pkg.md) 0.92
+- [IntelFrameworkModulePkg](../../archives/platforms-packages/intel_framework_module_pkg.md) 0.92
+- [IntelFrameworkPkg](../../archives/platforms-packages/intel_framework_pkg.md) 0.92
+- [MdeModulePkg](../../platforms-packages/core-packages/mde_module_pkg.md) 0.92
+- [MdePkg](../../platforms-packages/core-packages/mde_pkg.md) with
   Libraries 1.03
-- [MdePkg](platforms-packages/core-packages/mde_pkg.md) 1.03
-- [NetworkPkg](platforms-packages/core-packages/network_pkg.md)
+- [MdePkg](../../platforms-packages/core-packages/mde_pkg.md) 1.03
+- [NetworkPkg](../../platforms-packages/core-packages/network_pkg.md)
   0.93
-- [SecurityPkg](platforms-packages/core-packages/security_pkg.md) 0.92
+- [SecurityPkg](../../platforms-packages/core-packages/security_pkg.md) 0.92
 
 </td>
 

@@ -158,9 +158,9 @@ Wizard](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_De
 ## [March 5, 2012](http://www.tianocore.org/news/2012/03/05/news.html)
 
 We are applying to participate in the [Google Summer of
-Code](../../community/events-outreach/gsoc2012.md) program again this year!
+Code](../events-outreach/gsoc2012.md) program again this year!
 
-For more information, visit the [GSoC2012](../../community/events-outreach/gsoc2012.md) page or join
+For more information, visit the [GSoC2012](../events-outreach/gsoc2012.md) page or join
 in on our discussion on [edk2-devel](https://lists.sourceforge.net/lists/listinfo/edk2-devel).
 
 ## [January 2, 2012](http://www.tianocore.org/news/2012/01/02/news.html)

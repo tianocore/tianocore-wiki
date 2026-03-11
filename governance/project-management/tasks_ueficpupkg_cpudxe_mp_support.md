@@ -63,7 +63,7 @@ Some possible sub-goals for the driver
   MpServices protocol
     [https://svn.code.sf.net/p/edk2-startcore/code/StartCorePkg](https://svn.code.sf.net/p/edk2-startcore/code/StartCorePkg)
     (svn)
-- [EmulatorPkg](platforms-packages/platform-ports/emulator_pkg.md) already supports MpServices, so
+- [EmulatorPkg](../../platforms-packages/platform-ports/emulator_pkg.md) already supports MpServices, so
   this may be used as a reference.
 
 ## Further Discussion

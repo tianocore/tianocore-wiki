@@ -4,7 +4,7 @@ These releses are archived for reference.
 
 To learn more about the EDK codebase see the
 [EDK Module Structure
-Explained](Modules).
+Explained](../../development/design-architecture/modules.md).
 
 <table>
 
@@ -1409,4 +1409,4 @@ License information:
 
 Project owner(s):
 [EDK 1
-Module owners](Modules)
+Module owners](../../development/design-architecture/modules.md)
