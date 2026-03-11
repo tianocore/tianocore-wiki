@@ -195,6 +195,7 @@
   - [Tasks Text Editor](governance/project-management/tasks_text_editor.md)
   - [Tasks UefiCpuPkg CpuDxe MP Support](governance/project-management/tasks_ueficpupkg_cpudxe_mp_support.md)
   - [Tasks USB Serial Adapter Driver](governance/project-management/tasks_usb_serial_adapter_driver.md)
+  - [Tasks](governance/project-management/tasks.md)
   - [Transition to GitHub](governance/project-management/transition_to_github.md)
 
 ---
@@ -373,6 +374,28 @@
 
 - [Oneline Release Notes Generation](releases-history/release-artifacts/oneline_release_notes_generation.md)
 
+- [Release Archives](releases-history/archives/edk_releases.md)
+  - [Previous EDK and Shell Releases](releases-history/archives/previous_edk_and_shell_releases.md)
+  - [Previous UDK2010 Releases](releases-history/archives/previous_udk2010_releases.md)
+  - [UDK](releases-history/archives/udk.md)
+  - [UDK2010 Releases](releases-history/archives/udk2010_releases.md)
+  - [UDK2010 SR1 Features](releases-history/archives/udk2010_sr1_features.md)
+  - [UDK2010 SR1 IHV Setup Guide](releases-history/archives/udk2010_sr1_ihv_setup_guide.md)
+  - [UDK2010 SR1 UP1](releases-history/archives/udk2010_sr1_up1.md)
+  - [UDK2010](releases-history/archives/udk2010.md)
+  - [UDK2014 Features](releases-history/archives/udk2014_features.md)
+  - [UDK2014 IHV Setup Guide](releases-history/archives/udk2014_ihv_setup_guide.md)
+  - [UDK2014 Releases](releases-history/archives/udk2014_releases.md)
+  - [UDK2014 SP1 P1 Release](releases-history/archives/udk2014_sp1_p1_release.md)
+  - [UDK2014](releases-history/archives/udk2014.md)
+  - [UDK2015](releases-history/archives/udk2015.md)
+  - [UDK2017 Core Update Notes](releases-history/archives/udk2017_core_update_notes.md)
+  - [UDK2017 Key Features](releases-history/archives/udk2017_key_features.md)
+  - [UDK2017](releases-history/archives/udk2017.md)
+  - [UDK2018 Core Update Notes](releases-history/archives/udk2018_core_update_notes.md)
+  - [UDK2018 Key Features](releases-history/archives/udk2018_key_features.md)
+  - [UDK2018](releases-history/archives/udk2018.md)
+
 ---
 
 # Security
@@ -389,3 +412,40 @@
   - [Security Advisory Process](security/processes/security_advisory_process.md)
 
 - [EDK II Security White Papers](security/tools-practices/edk_ii_security_white_papers.md)
+  - [Host Based Firmware Analyzer](security/tools-practices/host_based_firmware_analyzer.md)
+
+---
+
+# Archives
+
+- [Complete Tasks](archives/complete_tasks.md)
+
+- [Archived Build Workflows](archives/build-tooling/build-workflows/udk2010_sr1_how_to_build.md)
+  - [UDK2010 SR1 UP1 How to Build](archives/build-tooling/build-workflows/udk2010_sr1_up1_how_to_build.md)
+  - [UDK2014 How to Build](archives/build-tooling/build-workflows/udk2014_how_to_build.md)
+  - [UDK2017 How to Build](archives/build-tooling/build-workflows/udk2017_how_to_build.md)
+  - [UDK2018 How to Build](archives/build-tooling/build-workflows/udk2018_how_to_build.md)
+
+- [Archived Governance](archives/governance/obsolete_tasks.md)
+
+- [Archived Platforms & Packages](archives/platforms-packages/edk_compatibility_pkg.md)
+  - [EDK FAT Driver](archives/platforms-packages/edk_fat_driver.md)
+  - [EDK Shell Bin Pkg](archives/platforms-packages/edk_shell_bin_pkg.md)
+  - [EDK Shell Pkg](archives/platforms-packages/edk_shell_pkg.md)
+  - [Intel Framework Module Pkg](archives/platforms-packages/intel_framework_module_pkg.md)
+  - [Intel Framework Pkg](archives/platforms-packages/intel_framework_pkg.md)
+  - [NT32](archives/platforms-packages/nt32.md)
+  - [NT32 Pkg](archives/platforms-packages/nt32_pkg.md)
+  - [Unix Pkg](archives/platforms-packages/unix_pkg.md)
+
+- [Archived Reference](archives/reference/edk.md)
+  - [EDK Apps](archives/reference/edk_apps.md)
+  - [EDK Boot Loader EBL Wiki](archives/reference/edk_boot_loader_ebl_wiki.md)
+  - [EDK Member Documents](archives/reference/edk_member_documents.md)
+  - [EDK User Documentation](archives/reference/edk_user_documentation.md)
+  - [EDKDevKit](archives/reference/efidevkit.md)
+  - [EFI SCT](archives/reference/efi_sct.md)
+  - [EFI Shell](archives/reference/efi_shell.md)
+  - [EFI Toolkit](archives/reference/efi_toolkit.md)
+  - [EFI Shell (old)](archives/reference/efishell.md)
+  - [Framework SCT](archives/reference/framework_sct.md)
