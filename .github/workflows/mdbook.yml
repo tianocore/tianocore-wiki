@@ -49,6 +49,9 @@ jobs:
           cargo binstall mdbook-mermaid@0.15.0 --no-confirm --force
           mdbook-mermaid install .
 
+      - name: Install mdbook-linkcheck
+        run: cargo binstall mdbook-linkcheck@0.7.7 --no-confirm --force
+
       - name: Build mdBook
         run: mdbook build
 

@@ -49,7 +49,6 @@ line-numbers = false
 runnable = false
 
 [output.linkcheck]
-optional = true
 warning-policy = "warn"
 exclude = [
   '@',  # Email addresses
