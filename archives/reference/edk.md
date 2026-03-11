@@ -4,7 +4,7 @@
 
 | Release | What is it? | EDK Shell | Documents |
 |---------|-------------|-----------|-----------|
-| [Edk 1.06.zip](http://sourceforge.net/projects/efidevkit/files/Releases/Official%20Releases/Edk%201.06.zip/download) | Contains UEFI 2.1, Framework 0.9, PI 1.0 and EFI shell: core and sample driver source code for EDK build source code environment and directory structure. | [EfiShell 1.06.zip](http://sourceforge.net/projects/efi-shell/files/Releases/Official%20Releases/EfiShell%201.06.zip/download) | ShellCommandManual.pdf<br>Glue_Library.pdf<br>EDK BuildDocument.pdf<br>EBC Debugger User Manual.pdf<br>EfiDriverLib.pdf<br>EdkReference Manual.pdf<br>EdkReferenceManual.zip<br>VFR.pdf<br>Edk Getting Started Guide[1].pdf<br>EbcDegubber Release notes<br>DuetRelNotes.txt |
+| [Edk 1.06.zip](http://sourceforge.net/projects/efidevkit/files/Releases/Official%20Releases/Edk%201.06.zip/download) | Contains UEFI 2.1, Framework 0.9, PI 1.0 and EFI shell: core and sample driver source code for EDK build source code environment and directory structure. | [EfiShell 1.06.zip](http://sourceforge.net/projects/efi-shell/files/Releases/Official%20Releases/EfiShell%201.06.zip/download) | ShellCommandManual.pdf<br>Glue_Library.pdf<br>EDK BuildDocument.pdf<br>EBC Debugger User Manual.pdf<br>EfiDriverLib.pdf<br>EdkReference Manual.pdf<br>EdkReferenceManual.zip<br>VFR.pdf<br>Edk Getting Started Guide\[1\].pdf<br>EbcDegubber Release notes<br>DuetRelNotes.txt |
 
 ### Mobile / Client Patches
 

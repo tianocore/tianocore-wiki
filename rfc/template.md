@@ -1,15 +1,15 @@
-# RFC: [Your RFC Title]
+# RFC: \[Your RFC Title\]
 
 ## Metadata
 
 - **RFC Number**: TBD
-- **Title**: [Your RFC Title]
+- **Title**: \[Your RFC Title\]
 - **Status**: Draft
 
 ## Change Log
 
-- [YYYY-MM-DD]: Initial RFC created
-- [YYYY-MM-DD]: Updated based on community feedback (describe changes)
+- \[YYYY-MM-DD\]: Initial RFC created
+- \[YYYY-MM-DD\]: Updated based on community feedback (describe changes)
 
 ## Motivation
 
@@ -89,13 +89,13 @@ Describe similar work in other projects or previous attempts:
 
 Describe alternative approaches you considered and why they were not chosen:
 
-### Alternative 1: [Description]
+### Alternative 1: \[Description\]
 
 - **Pros**: List advantages
 - **Cons**: List disadvantages
 - **Why not chosen**: Explain the decision
 
-### Alternative 2: [Description]
+### Alternative 2: \[Description\]
 
 - **Pros**: List advantages
 - **Cons**: List disadvantages

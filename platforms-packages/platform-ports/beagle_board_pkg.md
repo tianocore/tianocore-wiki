@@ -44,7 +44,7 @@ Omap35xxPkg.
     patch -p1 < ArmPlatformPkg/Documentation/patches/BaseTools-Pending-Patches.patch
     cd BeagleBoardPkg/
 
-3\. Get the toolchain: See [ArmPkg-Toolchain](ArmPkg-Toolchain)
+3\. Get the toolchain: See [ArmPkg-Toolchain](../../build-tooling/environment-setup/armpkg_toolchain.md)
 
 4\. Apply the ARM pending patches required to build the firmware
 
@@ -92,19 +92,23 @@ sudo linaro-media-create --image_file beagle_sd.img --dev beagle --binary linaro
 
 3\. Replacing u-boot by UEFI
 
+    ```text
     mkdir /tmp/beagle_boot
     sudo mount -o loop,offset=$[63*512] $(WORKROOT)/beagle_image/beagle_sd.img /tmp/beagle_boot
     sudo cp $(WORKROOT)/edk2/Build/BeagleBoard/RELEASE_ARMGCC/FV/BEAGLEBOARD_EFI.fd /tmp/beagle_boot/u-boot.bin
     sudo umount /tmp/beagle_boot
+    ```
 
 4\. ARM UEFI currently only support zImage. Add the zImage to the
 sdcard:
 
+    ```text
     tar xzf hwpack_linaro-omap3_20101109-1_armel_supported.tar.gz
     cd pkgs/
     dpkg -x linux-image-2.6.35-1008-linaro-omap_2.6.35-1008.15_armel.deb .
     sudo mount -o loop,offset=$[63*512] $(WORKROOT)/beagle_image/beagle_sd.img /tmp/beagle_boot
     sudo cp boot/vmlinuz-2.6.35-1008-linaro-omap /tmp/beagle_boot/zImage
+    ```
 
 5\. Replace the Linux command line
 
@@ -116,44 +120,45 @@ sdcard:
 - Go into the 'Boot Menu'
 - Update the existing entry
 
-    The default boot selection will start in   8 seconds
-    [1] Linux from SD
-    [2] EBL
-    [3] Boot Manager
-    Start: 3
-    [1] Add Boot Device Entry
-    [2] Update Boot Device Entry
-    [3] Remove Boot Device Entry
-    [4] Return to main menu
-    Choice: 2
-    [1] Linux from SD
-    Update entry: 1
-    File path of the EFI Application or the kernel: zImage
-Arguments to pass to the binary: console=ttyS2,115200n8 root=/dev/mmcblk0p2 rw earlyprintk fixrtc nocompcache vram=12M
-omapfb.mode=dvi:1280x720MR-16@60
-    Description for this new Entry: Linux from SD
-    [1] Add Boot Device Entry
-    [2] Update Boot Device Entry
-    [3] Remove Boot Device Entry
-    [4] Return to main menu
-    Choice: 4
-    [1] Linux from SD
-    [2] EBL
-    [3] Boot Manager
-    Start: 1
-       DXE    498 ms
-       BDS    291 ms
-    Total Time = 790 ms
-
-    Uncompressing Linux... done, booting the kernel.
-    [    0.000000] Initializing cgroup subsys cpuset
-    [    0.000000] Initializing cgroup subsys cpu
-[ 0.000000] Linux version 2.6.35-1008-linaro-omap (buildd@hawthorn) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) )
-#15-Ubuntu Fri Oct 22 11:56:29 UTC 2010 (Ubuntu 2.6.35-1008.15-linaro-omap 2.6.35.7)
-    [    0.000000] CPU: ARMv7 Processor [412fc083] revision 3 (ARMv7), cr=10c53c7f
-    [    0.000000] CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
-    [    0.000000] Machine: OMAP3 Beagle Board
-    [    0.000000] bootconsole [earlycon0] enabled
+      ```text
+      The default boot selection will start in   8 seconds
+      [1] Linux from SD
+      [2] EBL
+      [3] Boot Manager
+      Start: 3
+      [1] Add Boot Device Entry
+      [2] Update Boot Device Entry
+      [3] Remove Boot Device Entry
+      [4] Return to main menu
+      Choice: 2
+      [1] Linux from SD
+      Update entry: 1
+      File path of the EFI Application or the kernel: zImage
+      Arguments to pass to the binary: console=ttyS2,115200n8 root=/dev/mmcblk0p2 rw earlyprintk fixrtc nocompcache vram=12M
+      omapfb.mode=dvi:1280x720MR-16@60
+      Description for this new Entry: Linux from SD
+      [1] Add Boot Device Entry
+      [2] Update Boot Device Entry
+      [3] Remove Boot Device Entry
+      [4] Return to main menu
+      Choice: 4
+      [1] Linux from SD
+      [2] EBL
+      [3] Boot Manager
+      Start: 1
+        DXE    498 ms
+        BDS    291 ms
+      Total Time = 790 ms
+      Uncompressing Linux... done, booting the kernel.
+      [    0.000000] Initializing cgroup subsys cpuset
+      [    0.000000] Initializing cgroup subsys cpu
+      [ 0.000000] Linux version 2.6.35-1008-linaro-omap (buildd@hawthorn) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) )
+      #15-Ubuntu Fri Oct 22 11:56:29 UTC 2010 (Ubuntu 2.6.35-1008.15-linaro-omap 2.6.35.7)
+      [    0.000000] CPU: ARMv7 Processor [412fc083] revision 3 (ARMv7), cr=10c53c7f
+      [    0.000000] CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+      [    0.000000] Machine: OMAP3 Beagle Board
+      [    0.000000] bootconsole [earlycon0] enabled
+      ```
 
 The EBL (EDK Boot Loader) is a small simple command line environment
 that is much simpler that the EFI shell. It is also possible to launch
@@ -219,6 +224,7 @@ boot partition:
 And to list the Device Paths supported by your firmware you can also use
 the command 'devicepath' of EBL:
 
+    ```text
     BeagleEdk2 fs0:\>devicepath
     [0x87964690] MemoryMapped(0xB,0x80008000,0x80087FFF)
     [0x87964390] MemoryMapped(0xB,0x87BAF000,0x87DC1F37)
@@ -231,6 +237,7 @@ the command 'devicepath' of EBL:
     [0x8704A710] VenHw(100C2CFA-B586-4198-9B4C-1683D195B1DA)/HD(1,MBR,0x00000000,0x3F,0x19FC0)
     [0x8704A410] VenHw(100C2CFA-B586-4198-9B4C-1683D195B1DA)/HD(2,MBR,0x00000000,0x1A000,0x5E6000)
     BeagleEdk2 fs0:\>
+    ```
 
 The default kernel is expected at
 VenHw(B615F1F5-5088-43CD-809C-A16E52487D00)/HD(1,MBR,0x00000000,0x3F,0x19FC0)/zImage
@@ -241,8 +248,7 @@ This is defined by BeagleBoardPkg/BeagleBoardPkg.dsc:
 ## Booting EDK2 in the Beagle Board DRAM using U-Boot
 
 1\. Build the BeagleBoard EDK2 as defined in section
-'[How to build UEFI for
-the BeagleBoard](#How_to_build_UEFI_for_the_BeagleBoard)'.
+[How to build UEFI for the BeagleBoard](#how-to-build-uefi-for-the-beagleboard).
 
 2\. Copy the BeagleBoard UEFI firmware (BEAGLEBOARD_EFI.fd) on your boot
 partition (the FAT partition) of your SD card.
@@ -251,6 +257,7 @@ partition (the FAT partition) of your SD card.
 
 4\. Load and Start the UEFI Firmware
 
+    ```text
     OMAP3 beagleboard.org # mmc init
     mmc1 is available
     OMAP3 beagleboard.org # fatls mmc1
@@ -277,28 +284,29 @@ partition (the FAT partition) of your SD card.
     ## Starting application at 0x80008000 ...
     Magic delay to disable watchdog timers properly.
     UEFI firmware built at 12:34:19 on Nov 16 2011
-add-symbol-file
-/home/olivier/tianocore-svn/Build/BeagleBoard/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
-0x87B88240
-    Loading DxeCore at 0x0087B88000 EntryPoint=0x0087B88241
-add-symbol-file
-/home/olivier/tianocore-svn/Build/BeagleBoard/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
-0x87B88004
-    HOBLIST address in DXE = 0x87B70010
-    Memory Allocation 0x00000004 0x87FEF000 - 0x87FEFFFF
-    Memory Allocation 0x00000004 0x87FE7000 - 0x87FEEFFF
-    Memory Allocation 0x00000004 0x87FF0000 - 0x87FFFFFF
-    Memory Allocation 0x00000004 0x87FD7000 - 0x87FE6FFF
-    (...)
-    The default boot selection will start in  10 seconds
-    [1] Linux from SD
-        - VenHw(B615F1F5-5088-43CD-809C-A16E52487D00)/HD(1,MBR,0x00000000,0x3F,0x19FC0)/zImage
-        - Arguments: console=tty0 console=ttyS2,115200n8 root=UUID=a4af765b-c2b5-48f4-9564-7a4e9104c4f6 rootwait ro
-          earlyprintk
-        - LoaderType: 1
-    [2] EBL
-    [3] Boot Manager
-    Start:
+    add-symbol-file
+    /home/olivier/tianocore-svn/Build/BeagleBoard/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
+    0x87B88240
+        Loading DxeCore at 0x0087B88000 EntryPoint=0x0087B88241
+    add-symbol-file
+    /home/olivier/tianocore-svn/Build/BeagleBoard/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
+    0x87B88004
+        HOBLIST address in DXE = 0x87B70010
+        Memory Allocation 0x00000004 0x87FEF000 - 0x87FEFFFF
+        Memory Allocation 0x00000004 0x87FE7000 - 0x87FEEFFF
+        Memory Allocation 0x00000004 0x87FF0000 - 0x87FFFFFF
+        Memory Allocation 0x00000004 0x87FD7000 - 0x87FE6FFF
+        (...)
+        The default boot selection will start in  10 seconds
+        [1] Linux from SD
+            - VenHw(B615F1F5-5088-43CD-809C-A16E52487D00)/HD(1,MBR,0x00000000,0x3F,0x19FC0)/zImage
+            - Arguments: console=tty0 console=ttyS2,115200n8 root=UUID=a4af765b-c2b5-48f4-9564-7a4e9104c4f6 rootwait ro
+              earlyprintk
+            - LoaderType: 1
+        [2] EBL
+        [3] Boot Manager
+        Start:
+    ```
 
 1. It should also be possible to boot EFI from USB using the following
     U-Boot commands:

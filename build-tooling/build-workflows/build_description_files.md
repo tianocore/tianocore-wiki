@@ -33,14 +33,14 @@ Specifications](../../reference/specs-standards/edk_ii_specifications.md)
 
 ## The .INF file
 
-For the Spec and Description see: [INF](EDK-II-Specifications#inf) on the [EDK II
+For the Spec and Description see: [INF](../../reference/specs-standards/edk_ii_specifications.md#inf) on the [EDK II
 Specifications](../../reference/specs-standards/edk_ii_specifications.md) page
 This file describes how to build a module (i.e. a driver, library, application, etc…).
 
 ### INF Comments
 
 The single hash `#` character indicates comments in the (INF) file. In line comments terminate the processing of a line.
-In line comments must be placed at the end of the line, and may not be placed within the section ([,]) tags. Hash
+In line comments must be placed at the end of the line, and may not be placed within the section (`[,]`) tags. Hash
 characters appearing within a quoted string are permitted.
 
 Note: The _\<Usage Block\>_ will start with double `##` within the various sections and is __not__ a comment and will be
@@ -131,8 +131,8 @@ List the various source and header files used to build the module.
 ### INF \[LibraryClasses\]
 
 List the various libraries the module uses and should be linked with. This is the LibNameToReference value the library
-module used in its .INF file. For each entry in this section there needs to be an entry [LibraryClasses] sector of the
-.DSC file this module is associated with. This is because the packages in the [Packages] section are not used to
+module used in its .INF file. For each entry in this section there needs to be an entry `[LibraryClasses]` sector of the
+.DSC file this module is associated with. This is because the packages in the `[Packages]` section are not used to
 determine the library module to link with.
 For Example:
 
@@ -143,7 +143,7 @@ For Example:
 ### INF \[Protocols\]
 
 List the various protocol GUIDs variable name needed/used by the sources. The variable name is defined in one of the
-[Packages].DEC [Guids] section. Also listed are the Usage Block definitions for the protocol for this module
+`[Packages]`.DEC `[Guids]` section. Also listed are the Usage Block definitions for the protocol for this module
 For Example:
 
 ```ini
@@ -155,7 +155,7 @@ The `## BY_START`  is a key word that means that this protocol is produced by a 
 ### INF \[Guids\]
 
 List the various GUIDs variable name needed/used by the sources. The variable name is defined in one of the
-[Packages].DEC [Guids] section.
+`[Packages]`.DEC `[Guids]` section.
 
 For Example:
 
@@ -174,17 +174,17 @@ Add compiler specific options needed to build the module.
 
 ## The .DEC file
 
-For the Spec and Description see: [DEC](EDK-II-Specifications#dec) on the [EDK II
+For the Spec and Description see: [DEC](../../reference/specs-standards/edk_ii_specifications.md#dec) on the [EDK II
 Specifications](../../reference/specs-standards/edk_ii_specifications.md) page
 This file is used to declare what is available in the package and tells the build system where to find things such as
 “Include” directories. It can also be used to replace the use of #define values or constant variables in .h files though
 a mechanism called the Platform Configuration Database(PCD). This file is used when a module includes this package in
-its [Packages] section.
+its `[Packages]` section.
 
 ### DEC Comments
 
 The single hash `#` character indicates comments in the (INF) file. In line comments terminate the processing of a line.
-In line comments must be placed at the end of the line, and may not be placed within the section ([,]) tags. Hash
+In line comments must be placed at the end of the line, and may not be placed within the section (`[,]`) tags. Hash
 characters appearing within a quoted string are permitted.
 
 #### Comment Block entries
@@ -192,7 +192,7 @@ characters appearing within a quoted string are permitted.
 A double `##` hash is used for comment block entries. This is a recommended format for comment information regarding the
 header files, module types an item supports and other information.
 
-The general format of these comment blocks in the [Guids], [Protocols] and [Ppis] sections is:
+The general format of these comment blocks in the `[Guids]`, `[Protocols]` and `[Ppis]` sections is:
 
 ```text
 ## Path/To/HeaderFile.h
@@ -234,7 +234,7 @@ For example:
 Lists the libraries available in (provided by) the package and where the header file can be found. The libraries
 available are the modules that belong to the package which are libraries. The name of the library available must match
 the LIBRARY_CLASS names given in the various .INF files that belong to the package. This is used by the build system
-when your modules .INF [Packages] section includes this package and its [LibraryClasses] include a LibNameToReference.
+when your modules .INF `[Packages]` section includes this package and its `[LibraryClasses]` include a LibNameToReference.
 The build system then generates the #include to the header file in the autogen.h file so you don’t need to include it in
 your source modules.
 
@@ -300,7 +300,7 @@ Example:
 
 ## The .DSC file
 
-For the Spec and Description see: [DSC](EDK-II-Specifications#dsc) on the [EDK II
+For the Spec and Description see: [DSC](../../reference/specs-standards/edk_ii_specifications.md#dsc) on the [EDK II
 Specifications](../../reference/specs-standards/edk_ii_specifications.md) page
 This file describes how to build a package; a package being a set of components to be provided together. Note the Build
 will need at least one .DSC file to be successful.
@@ -323,9 +323,9 @@ SKUID_IDENTIFIER         = DEFAULT
 ### DSC \[LibraryClasses]
 
 List the various libraries the components of this package may use. This tells the build system where the library to link
-with is located. The modules .INF file indicates the LibNameToReference in its [LibraryClasses] section and the build
-system looks to this section for how to find it. The build system does not use your [Packages] section of the .INF to
-find the library to link with; it uses the [Packages] section to find the location of the header files for a library in
+with is located. The modules .INF file indicates the LibNameToReference in its `[LibraryClasses]` section and the build
+system looks to this section for how to find it. The build system does not use your `[Packages]` section of the .INF to
+find the library to link with; it uses the `[Packages]` section to find the location of the header files for a library in
 a packages .DEC file. The format is:
 
 `LibNameToReference|Path/To/Library/Inf/File.inf`

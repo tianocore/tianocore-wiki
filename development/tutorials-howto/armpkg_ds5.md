@@ -101,7 +101,7 @@ the DS-5 Configuration Database:
 Add the model parameter to the entry :
 
 -C
-motherboard.flashloader0.fname="[YOUR_WORKSPACE_FULLPATH]/edk2/Build/ArmVExpress-RTSM-A9x4/DEBUG_RVCTLINUX/FV/RTSM_VE_CORTEX-A9_EFI.fd"
+motherboard.flashloader0.fname="\[YOUR_WORKSPACE_FULLPATH\]/edk2/Build/ArmVExpress-RTSM-A9x4/DEBUG_RVCTLINUX/FV/RTSM_VE_CORTEX-A9_EFI.fd"
 
 From DS-5 v5.11, these parameters can be passed through the DS-5 User
 Interface. ![](ArmDs5-tutorial-10.png "ArmDs5-tutorial-10.png")
@@ -213,7 +213,7 @@ Warning: not possible to load symbols from
 
 Because the Fat and Shell binaries come as pre-built binaries.
 If you want to rebuild these binaries for your platform:
-[ArmPkg-Binaries](ArmPkg-Binaries)
+[ArmPkg-Binaries](../../platforms-packages/core-packages/armpkg_binaries.md)
 
 **Note 3:** DS-5 Debugger’s editor does not recognize the '\*.iii' as
 assembly files. The workaround is to add a file association for "\*.iii"

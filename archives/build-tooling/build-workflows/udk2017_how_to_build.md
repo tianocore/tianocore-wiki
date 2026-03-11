@@ -32,7 +32,7 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
        Page](https://github.com/tianocore/edk2/releases/tag/vUDK2017)
         1. Download - UDK2017 edk-vUDK2017 Workspace [Source code (zip
            file)](https://github.com/tianocore/edk2/archive/vUDK2017.zip)
-        2. Extract files in [edk2-vUDK2017] to the working space directory C:\MyWorkspace.
+        2. Extract files in `edk2-vUDK2017` to the working space directory C:\MyWorkspace.
     3. **OR**  Checkout the vUDK2017 Tag from GitHub with the following "git" command
         1. run  `git clone  https://github.com/tianocore/edk2.git vUDK2017`
         2. Move all files and folders under "vUDK2017" to "C:\MyWorkspace"
@@ -111,7 +111,7 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
        Page](https://github.com/tianocore/edk2/releases/tag/vUDK2017)
         1. Download - UDK2017 edk-vUDK2017 Workspace [Source code (tar.gz
            file)](https://github.com/tianocore/edk2/archive/vUDK2017.tar.gz)
-        2. Extract files in [edk2-vUDK2017] to the working space directory ~/src/MyWorkspace.
+        2. Extract files in `edk2-vUDK2017` to the working space directory ~/src/MyWorkspace.
     3. **OR**  Checkout the vUDK2017 tag from GitHub with the following "git" command
         1. Run `"git clone https://github.com/tianocore/edk2.git vUDK2017"`
         2. Move all files and folders under "vUDK2017" to "~/src/MyWorkspace"

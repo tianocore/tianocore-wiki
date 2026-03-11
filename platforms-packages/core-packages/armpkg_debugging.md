@@ -89,7 +89,7 @@ $ fromelf -s Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/
 _ModuleEntryPoint
       1217  _ModuleEntryPoint          0x00000004   Gb    1  Code  De
     Or:
-    
+
 
 $ arm-linux-gnueabi-objdump -t
 Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll | grep_ModuleEntryPoint
@@ -113,5 +113,7 @@ Address of \_ModuleEntryPoint in the ELF file = 0x184 - 0x004 =
 
 5\. Load the symbols for this module:
 
-add-symbol-file
-[EDK2_ROOT]/Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll 0x180
+    ```text
+    add-symbol-file
+    [EDK2_ROOT]/Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll 0x180
+    ```

@@ -34,7 +34,7 @@ repository. To get the sources:
     patch -p1 < 0007-SamsungPlatformPkg-SmdkBoardLib-Fixed-GCC-build-issu.patch
 
 3\. Add support for one of the supported toolchains. See
-[ArmPkg-Toolchain](ArmPkg-Toolchain)
+[ArmPkg-Toolchain](../../build-tooling/environment-setup/armpkg_toolchain.md)
 
 4\. Build EDK2:
 
@@ -87,32 +87,34 @@ information about the command.
 9\. Insert the newly created SD card into the Origen SD card slot and
 power up the platform.
 
-    UEFI firmware built at 19:29:37 on Feb 20 2012
-    Timer 2,3 Configured
-    UEFI firmware built at 19:29:38 on Feb 20 2012
-add-symbol-file
-/home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
-0x4FD39240
-    Loading DxeCore at 0x004FD39000 EntryPoint=0x004FD39241
-add-symbol-file
-/home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
-0x4FD39004
-    HOBLIST address in DXE = 0x4FD21590
-    Memory Allocation 0x00000004 0x4FF9C000 - 0x4FFEBFFF
-    Memory Allocation 0x00000004 0x4FF94000 - 0x4FF9BFFF
-    Memory Allocation 0x00000004 0x4FFEC000 - 0x4FFFFFFF
-    Memory Allocation 0x00000004 0x4FF84000 - 0x4FF93FFF
-    (...)
-add-symbol-file
-/home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/DEBUG/EnglishDxe.dll
-0x4F8B3240
-    Loading driver at 0x0004F8B3000 EntryPoint=0x0004F8B3261 EnglishDxe.efi
-    The default boot selection will start in   8 seconds
-    [1] SD-MMC Booting
-            - VenHw(B615F1F5-5088-43CD-809C-A16E52487D00)/HD(2,MBR,0x0009C1D9,0x2000,0x1A000)/uImage
-            - Initrd: VenHw(B615F1F5-5088-43CD-809C-A16E52487D00)/HD(2,MBR,0x0009C1D9,0x2000,0x1A000)/uInitrd
-            - Arguments: console=ttySAC2,115200n8  root=UUID=73ce15fe-4c31-47e5-b537-9759497e9615 rootwait ro
-            - LoaderType: 1
-    [2] EBL
-    [3] Boot Manager
-    Start:
+    ```text
+        UEFI firmware built at 19:29:37 on Feb 20 2012
+        Timer 2,3 Configured
+        UEFI firmware built at 19:29:38 on Feb 20 2012
+    add-symbol-file
+    /home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
+    0x4FD39240
+        Loading DxeCore at 0x004FD39000 EntryPoint=0x004FD39241
+    add-symbol-file
+    /home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
+    0x4FD39004
+        HOBLIST address in DXE = 0x4FD21590
+        Memory Allocation 0x00000004 0x4FF9C000 - 0x4FFEBFFF
+        Memory Allocation 0x00000004 0x4FF94000 - 0x4FF9BFFF
+        Memory Allocation 0x00000004 0x4FFEC000 - 0x4FFFFFFF
+        Memory Allocation 0x00000004 0x4FF84000 - 0x4FF93FFF
+        (...)
+    add-symbol-file
+    /home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/DEBUG/EnglishDxe.dll
+    0x4F8B3240
+        Loading driver at 0x0004F8B3000 EntryPoint=0x0004F8B3261 EnglishDxe.efi
+        The default boot selection will start in   8 seconds
+        [1] SD-MMC Booting
+                - VenHw(B615F1F5-5088-43CD-809C-A16E52487D00)/HD(2,MBR,0x0009C1D9,0x2000,0x1A000)/uImage
+                - Initrd: VenHw(B615F1F5-5088-43CD-809C-A16E52487D00)/HD(2,MBR,0x0009C1D9,0x2000,0x1A000)/uInitrd
+                - Arguments: console=ttySAC2,115200n8  root=UUID=73ce15fe-4c31-47e5-b537-9759497e9615 rootwait ro
+                - LoaderType: 1
+        [2] EBL
+        [3] Boot Manager
+        Start:
+    ```

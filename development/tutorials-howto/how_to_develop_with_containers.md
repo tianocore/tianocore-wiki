@@ -104,7 +104,7 @@ For a shared docker image configuration, this can be configured by creating a
 | Configuration          | Purpose |
 | :------------          | :------ |
 | "privileged": true     | This may be needed for access to KVM for QEMU acceleration.  |
-| "forwardPorts": [####] | Can be used to forward debug or serial ports to the host OS. |
+| `"forwardPorts": [####]` | Can be used to forward debug or serial ports to the host OS. |
 
 It may also be desireable to run initialization commands using the "postCreateCommand"
 option. Specifically running `git config --global --add safe.directory ${containerWorkspaceFolder}`
