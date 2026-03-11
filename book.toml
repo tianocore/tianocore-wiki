@@ -52,5 +52,6 @@ runnable = false
 optional = true
 warning-policy = "warn"
 exclude = [
-  '@',           # Email addresses
+  '@',  # Email addresses
+  '(?i)\.png$', '(?i)\.jpg$', '(?i)\.jpeg$', '(?i)\.gif$', '(?i)\.svg$',  # Image files
 ]
