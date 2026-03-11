@@ -5,24 +5,24 @@ The transition to GitHub will start February 2nd at around 10AM PST
 
 Here are the planned transition tasks along with their status:
 
-* [x] change commit emails from svn to github
-* [x] update web pages regarding repo url =>
-      [edk2](https://github.com/tianocore/edk2)
-* [x] email notification of sourceforge svn becoming read-only
-* [x] disable write access on sourceforge
-* [x] sync svn => git one last time
-* [x] backup sourceforge EDK II svn database
-* [x] test EDK II svn backup
-* [x] backup sourceforge EDK II FAT svn database
-* [x] test EDK II FAT svn backup
-* [x] disable svn to github mirroring
-* [x] enable push access for package maintainers on github
-* [x] push test commit to master modifying Maintainers.txt
-* [x] email notification of github push access
+- ✅ change commit emails from svn to github
+- ✅ update web pages regarding repo url =>
+  [edk2](https://github.com/tianocore/edk2)
+- ✅ email notification of sourceforge svn becoming read-only
+- ✅ disable write access on sourceforge
+- ✅ sync svn => git one last time
+- ✅ backup sourceforge EDK II svn database
+- ✅ test EDK II svn backup
+- ✅ backup sourceforge EDK II FAT svn database
+- ✅ test EDK II FAT svn backup
+- ✅ disable svn to github mirroring
+- ✅ enable push access for package maintainers on github
+- ✅ push test commit to master modifying Maintainers.txt
+- ✅ email notification of github push access
 
 Post transition follow on tasks:
 
-* [x] Automated mirroring of git repo to git mirrors
-* [x] Automated mirroring of git repo (master, UDK branches) back to deprecated
-      svn repo
-* [x] Archive old svn branches to separate [git repo](https://github.com/tianocore/edk2-archive)
+- ✅ Automated mirroring of git repo to git mirrors
+- ✅ Automated mirroring of git repo (master, UDK branches) back to deprecated
+  svn repo
+- ✅ Archive old svn branches to separate [git repo](https://github.com/tianocore/edk2-archive)

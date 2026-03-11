@@ -104,37 +104,37 @@ In addition, CodeQL offers the flexibility to:
 While CodeQL can scan various languages including Python and C/C++, the TianoCore project is only focused on C/C++
 checks at this time. TianoCore has an initial set of queries to evaluate shown below (checked boxes are done).
 
-- [x]
+- ✅
   [cpp/conditionally-uninitialized-variable](https://github.com/github/codeql/blob/main/cpp/ql/src/Security/CWE/CWE-457/ConditionallyUninitializedVariable.ql)
-- [x]
+- ✅
   [cpp/infinite-loop-with-unsatisfiable-exit-condition](https://github.com/github/codeql/blob/main/cpp/ql/src/Security/CWE/CWE-835/InfiniteLoopWithUnsatisfiableExitCondition.ql)
-- [x]
+- ✅
   [cpp/overflow-buffer](https://github.com/github/codeql/blob/main/cpp/ql/src/Security/CWE/CWE-119/OverflowBuffer.ql)
-- [x]
+- ✅
   [cpp/pointer-overflow-check](https://github.com/github/codeql/blob/main/cpp/ql/src/Likely%20Bugs/Memory%20Management/PointerOverflow.ql)
-- [x]
+- ✅
   [cpp/potential-buffer-overflow](https://github.com/github/codeql/blob/main/cpp/ql/src/Likely%20Bugs/Memory%20Management/PotentialBufferOverflow.ql)
-- [ ]
+- ⬜
   [cpp/toctou-race-condition](https://github.com/github/codeql/blob/main/cpp/ql/src/Security/CWE/CWE-367/TOCTOUFilesystemRace.ql)
-- [ ]
+- ⬜
   [cpp/unclear-array-index-validation](https://github.com/github/codeql/blob/main/cpp/ql/src/Security/CWE/CWE-129/ImproperArrayIndexValidation.ql)
-- [ ]
+- ⬜
   [cpp/unsafe-strncat](https://github.com/github/codeql/blob/main/cpp/ql/src/Likely%20Bugs/Memory%20Management/SuspiciousCallToStrncat.ql)
-- [ ] [cpp/use-after-free](https://github.com/github/codeql/blob/main/cpp/ql/src/Critical/UseAfterFree.ql)
-- [ ]
+- ⬜ [cpp/use-after-free](https://github.com/github/codeql/blob/main/cpp/ql/src/Critical/UseAfterFree.ql)
+- ⬜
   [cpp/user-controlled-null-termination-tainted](https://github.com/github/codeql/blob/main/cpp/ql/src/Security/CWE/CWE-170/ImproperNullTerminationTainted.ql)
-- [ ]
+- ⬜
   [cpp/wrong-number-format-arguments](https://github.com/github/codeql/blob/main/cpp/ql/src/Likely%20Bugs/Format/WrongNumberOfFormatArguments.ql)
-- [ ]
+- ⬜
   [cpp/wrong-type-format-argument](https://github.com/github/codeql/blob/main/cpp/ql/src/Likely%20Bugs/Format/WrongTypeFormatArguments.ql)
 
 Additional queries completed:
 
-- [x]
+- ✅
   [cpp/overrunning-write](https://github.com/github/codeql/blob/main/cpp/ql/src/Security/CWE/CWE-120/OverrunWrite.ql)
-- [x]
+- ✅
   [cpp/overrunning-write-with-float](https://github.com/github/codeql/blob/main/cpp/ql/src/Security/CWE/CWE-120/OverrunWriteFloat.ql)
-- [x]
+- ✅
   [cpp/very-likely-overrunning-write](https://github.com/github/codeql/blob/main/cpp/ql/src/Security/CWE/CWE-120/VeryLikelyOverrunWrite.ql)
 
 ### Query Filtering in edk2
