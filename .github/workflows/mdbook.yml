@@ -61,7 +61,7 @@ jobs:
           path: ./book/html
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' && github.repository_owner == 'tianocore'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
