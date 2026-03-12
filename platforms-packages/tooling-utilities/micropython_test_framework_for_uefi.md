@@ -11,7 +11,7 @@ interaction.
 [https://github.com/tianocore/edk2-staging/tree/MicroPythonTestFramework/MpyTestFrameworkPkg](https://github.com/tianocore/edk2-staging/tree/MicroPythonTestFramework/MpyTestFrameworkPkg)
 
 The framework leverages [MicroPython](https://micropython.org) for a lightweight and minimalist implementation. A port
-of the [MicroPython](../../development/tutorials-howto/MicroPython.md) Interpreter for UEFI is available in
+of the [MicroPython](../../development/tutorials-howto/micropython.md) Interpreter for UEFI is available in
 edk2-staging: (`MicroPythonPkg`).
 
 [https://github.com/tianocore/edk2-staging/tree/MicroPythonTestFramework/MicroPythonPkg](https://github.com/tianocore/edk2-staging/tree/MicroPythonTestFramework/MicroPythonPkg)
