@@ -26,12 +26,12 @@ for more info.
 
 - [Shell Execution Requirements](../component-guides/shell.md)
 - [Shell Library Primer](../component-guides/shell.md)
-- [Creating a Shell Application](../component-guides/Shell.md)
+- [Creating a Shell Application](../../development/tutorials-howto/creating_a_shell_application.md)
 - [Porting an EDK Shell
   Extension](../../development/tutorials-howto/porting_an_edk_shell_extension.md)
 - [Move a Shell
-  Application to internal command](../component-guides/Shell.md)
-- [Shell FAQ](../component-guides/Shell.md)
+  Application to internal command](../component-guides/shell_application_to_internal_command.md)
+- [Shell FAQ](../../reference/faqs-glossaries/shell_faq.md)
 
 ## UEFI Shell Specifications (uefi.org)
 

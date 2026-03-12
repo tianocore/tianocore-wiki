@@ -58,4 +58,4 @@ project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
 - [Tasks](tasks.md)
 - [GSOC2011#Read-only FFS
-  file-system driver](../../community/events-outreach/GSOC2011.md)
+  file-system driver](../../community/events-outreach/gsoc2011.md)
